@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>医師国家試験クイズ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <p class="chip">過去3年分</p>
+        <h1>医師国家試験ランダムクイズ</h1>
+        <p id="meta-info">問題を読み込み中...</p>
+      </header>
+
+      <section class="status-board">
+        <div><span>出題数</span><strong id="attempted-count">0</strong></div>
+        <div><span>正解数</span><strong id="correct-count">0</strong></div>
+        <div><span>正答率</span><strong id="accuracy">0%</strong></div>
+      </section>
+
+      <section id="question-card" class="question-card" hidden>
+        <div class="question-head">
+          <p id="question-id"></p>
+          <button id="next-btn" class="ghost-btn" type="button">別の問題へ</button>
+        </div>
+
+        <h2 id="question-text"></h2>
+
+        <form id="answer-form" class="options"></form>
+
+        <div class="action-row">
+          <button id="judge-btn" class="judge-btn" type="button">解答する</button>
+        </div>
+
+        <p id="result" class="result"></p>
+      </section>
+
+      <footer class="footnote">
+        <p>
+          出典: 厚生労働省 公開問題（第117回・第118回・第119回）
+        </p>
+        <p>
+          数値入力問題など一部（A-E以外の正答形式）は除外しています。
+        </p>
+      </footer>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
