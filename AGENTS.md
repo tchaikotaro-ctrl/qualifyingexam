@@ -33,3 +33,7 @@
 - Reset generated booklet image assets and rebuilt them from raw booklet PDFs.
 - Changed mapping workflow to: render full page image -> crop panel -> recognize question number from cropped region text -> link to question body.
 - Attempted browser automation debugging with Playwright; blocked in this environment due missing system library (`libnspr4.so`) and no sudo for dependency install.
+- Fixed question parsing to strip trailing lead-in text such as `次の文を読み...` so later-case headers are no longer appended to prompts/options.
+- Updated booklet-image mapping to emit multi-image arrays (`bookletImagePaths` / `imagePaths`) while keeping single-path compatibility fields.
+- Aligned mapping priority in both builders to prefer question-number-recognized images over plain `bookletNo` matches.
+- Rebuilt datasets for both projects and verified that lead-in contamination count dropped to zero while multi-image questions are now emitted.

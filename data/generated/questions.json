@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-15T02:03:04.322Z",
+  "generatedAt": "2026-02-15T02:12:01.099Z",
   "sourcePages": [
     "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp230502-01.html",
     "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
@@ -368,6 +368,10 @@
       ],
       "answer": "C",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-01-1.png",
+        "data/generated/booklet-images/2023/A/no-01-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-01-1.png"
     },
     {
@@ -394,6 +398,9 @@
       ],
       "answer": "B",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-02-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-02-fallback.png"
     },
     {
@@ -420,6 +427,10 @@
       ],
       "answer": "CE",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-03-1.png",
+        "data/generated/booklet-images/2023/A/no-03-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-03-1.png"
     },
     {
@@ -518,6 +529,9 @@
       ],
       "answer": "C",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-04-1.png"
     },
     {
@@ -544,6 +558,9 @@
       ],
       "answer": "B",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-05-1.png"
     },
     {
@@ -570,6 +587,9 @@
       ],
       "answer": "C",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-06-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-06-fallback.png"
     },
     {
@@ -644,6 +664,9 @@
       ],
       "answer": "E",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-07-1.png"
     },
     {
@@ -670,6 +693,9 @@
       ],
       "answer": "E",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-08-1.png"
     },
     {
@@ -720,6 +746,9 @@
       ],
       "answer": "A",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-09-1.png"
     },
     {
@@ -770,6 +799,9 @@
       ],
       "answer": "D",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-10-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-10-1.png"
     },
     {
@@ -868,6 +900,9 @@
       ],
       "answer": "C",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-11-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-11-1.png"
     },
     {
@@ -894,6 +929,9 @@
       ],
       "answer": "AB",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-19-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-19-1.png"
     },
     {
@@ -920,6 +958,10 @@
       ],
       "answer": "B",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-13-1.png",
+        "data/generated/booklet-images/2023/A/no-13-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-13-1.png"
     },
     {
@@ -946,6 +988,9 @@
       ],
       "answer": "C",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-14-1.png"
     },
     {
@@ -972,6 +1017,10 @@
       ],
       "answer": "D",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-15-1.png",
+        "data/generated/booklet-images/2023/A/no-15-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-15-1.png"
     },
     {
@@ -998,6 +1047,11 @@
       ],
       "answer": "ACD",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-16-1.png",
+        "data/generated/booklet-images/2023/A/no-16-2.png",
+        "data/generated/booklet-images/2023/A/no-16-3.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-16-1.png"
     },
     {
@@ -1024,6 +1078,9 @@
       ],
       "answer": "A",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-17-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-17-1.png"
     },
     {
@@ -1050,6 +1107,9 @@
       ],
       "answer": "D",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-18-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-18-1.png"
     },
     {
@@ -1124,6 +1184,9 @@
       ],
       "answer": "AB",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-19-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-19-1.png"
     },
     {
@@ -1150,6 +1213,10 @@
       ],
       "answer": "A",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-20-1.png",
+        "data/generated/booklet-images/2023/A/no-20-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-20-1.png"
     },
     {
@@ -1200,6 +1267,9 @@
       ],
       "answer": "A",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-21-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-21-1.png"
     },
     {
@@ -1226,6 +1296,9 @@
       ],
       "answer": "A",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-22-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-22-fallback.png"
     },
     {
@@ -1252,6 +1325,10 @@
       ],
       "answer": "B",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-23-1.png",
+        "data/generated/booklet-images/2023/A/no-23-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-23-1.png"
     },
     {
@@ -1278,6 +1355,9 @@
       ],
       "answer": "ACD",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-24-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-24-1.png"
     },
     {
@@ -1304,6 +1384,11 @@
       ],
       "answer": "E",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-25-1.png",
+        "data/generated/booklet-images/2023/A/no-25-2.png",
+        "data/generated/booklet-images/2023/A/no-25-3.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-25-1.png"
     },
     {
@@ -1330,6 +1415,12 @@
       ],
       "answer": "DE",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-26-1.png",
+        "data/generated/booklet-images/2023/A/no-26-2.png",
+        "data/generated/booklet-images/2023/A/no-26-3.png",
+        "data/generated/booklet-images/2023/A/no-26-4.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-26-1.png"
     },
     {
@@ -1356,6 +1447,9 @@
       ],
       "answer": "A",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-27-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-27-1.png"
     },
     {
@@ -1382,6 +1476,9 @@
       ],
       "answer": "C",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-28-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-28-1.png"
     },
     {
@@ -1432,6 +1529,10 @@
       ],
       "answer": "C",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-29-1.png",
+        "data/generated/booklet-images/2023/A/no-29-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-29-1.png"
     },
     {
@@ -1458,6 +1559,9 @@
       ],
       "answer": "ACE",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-30-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-30-1.png"
     },
     {
@@ -1508,6 +1612,10 @@
       ],
       "answer": "E",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-31-1.png",
+        "data/generated/booklet-images/2023/A/no-31-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-31-1.png"
     },
     {
@@ -1534,6 +1642,9 @@
       ],
       "answer": "B",
       "bookletNo": 32,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-32-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-32-1.png"
     },
     {
@@ -1560,6 +1671,10 @@
       ],
       "answer": "AB",
       "bookletNo": 33,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-33-1.png",
+        "data/generated/booklet-images/2023/A/no-33-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-33-1.png"
     },
     {
@@ -1634,6 +1749,9 @@
       ],
       "answer": "B",
       "bookletNo": 34,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-32-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-32-1.png"
     },
     {
@@ -1660,6 +1778,9 @@
       ],
       "answer": "E",
       "bookletNo": 35,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-35-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-35-1.png"
     },
     {
@@ -1686,6 +1807,9 @@
       ],
       "answer": "C",
       "bookletNo": 36,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-36-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-36-1.png"
     },
     {
@@ -1712,6 +1836,10 @@
       ],
       "answer": "E",
       "bookletNo": 37,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-31-1.png",
+        "data/generated/booklet-images/2023/A/no-31-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-31-1.png"
     },
     {
@@ -1762,6 +1890,9 @@
       ],
       "answer": "D",
       "bookletNo": 38,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-38-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-38-fallback.png"
     },
     {
@@ -1788,6 +1919,9 @@
       ],
       "answer": "B",
       "bookletNo": 39,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-39-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-39-fallback.png"
     },
     {
@@ -1838,6 +1972,9 @@
       ],
       "answer": "AB",
       "bookletNo": 40,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-40-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-40-1.png"
     },
     {
@@ -1864,6 +2001,9 @@
       ],
       "answer": "B",
       "bookletNo": 41,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/A/no-41-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-41-1.png"
     },
     {
@@ -2130,6 +2270,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/B/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-01-fallback.png"
     },
     {
@@ -2636,6 +2779,9 @@
       ],
       "answer": "D",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/B/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-02-1.png"
     },
     {
@@ -2686,6 +2832,9 @@
       ],
       "answer": "D",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/B/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-03-1.png"
     },
     {
@@ -2832,6 +2981,10 @@
       ],
       "answer": "C",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/B/no-04-1.png",
+        "data/generated/booklet-images/2023/B/no-04-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-04-1.png"
     },
     {
@@ -2847,7 +3000,7 @@
         "B": "異状死の届出",
         "C": "保健所へ連絡",
         "D": "病理解剖の依頼",
-        "E": "死亡診断書の記載 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "死亡診断書の記載"
       },
       "optionOrder": [
         "A",
@@ -2895,7 +3048,7 @@
         "B": "HBs 抗原",
         "C": "HBs 抗体",
         "D": "HCV 抗体",
-        "E": "HIV 抗原・抗体 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "HIV 抗原・抗体"
       },
       "optionOrder": [
         "A",
@@ -2943,7 +3096,7 @@
         "B": "障害年金",
         "C": "高額療養費制度",
         "D": "自立支援医療制度",
-        "E": "指定難病医療費助成制度 次の文を読み 、 45 、 46 の問いに答えよ。"
+        "E": "指定難病医療費助成制度"
       },
       "optionOrder": [
         "A",
@@ -2991,7 +3144,7 @@
         "B": "肝内病変のラジオ波焼灼",
         "C": "肝内病変の 穿 刺ドレナージ",
         "D": "副腎皮質ステロイドの全身投与",
-        "E": "肝内病変の内視鏡的経鼻胆管ドレナージ 別 冊 No. 5 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "肝内病変の内視鏡的経鼻胆管ドレナージ 別 冊 No. 5"
       },
       "optionOrder": [
         "A",
@@ -3002,6 +3155,9 @@
       ],
       "answer": "C",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/B/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-05-1.png"
     },
     {
@@ -3041,7 +3197,7 @@
         "B": "網赤血球数低値",
         "C": "血清フェリチン低値",
         "D": "血清不飽和鉄結合能低値",
-        "E": "トランスフェリン飽和度高値 次の文を読み 、 49 、 50 の問いに答えよ。"
+        "E": "トランスフェリン飽和度高値"
       },
       "optionOrder": [
         "A",
@@ -3292,6 +3448,9 @@
       ],
       "answer": "A",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-01-fallback.png"
     },
     {
@@ -3774,6 +3933,9 @@
       ],
       "answer": "C",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-02-1.png"
     },
     {
@@ -4184,6 +4346,9 @@
       ],
       "answer": "E",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-03-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-03-fallback.png"
     },
     {
@@ -4234,6 +4399,9 @@
       ],
       "answer": "B",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-04-1.png"
     },
     {
@@ -4356,6 +4524,9 @@
       ],
       "answer": "C",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-05-fallback.png"
     },
     {
@@ -4382,6 +4553,9 @@
       ],
       "answer": "B",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-06-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-06-1.png"
     },
     {
@@ -4408,6 +4582,9 @@
       ],
       "answer": "B",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-07-1.png"
     },
     {
@@ -4465,13 +4642,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp230502-01.html",
       "section": "C",
       "number": 59,
-      "prompt": "32 歳の経産婦 （ 2 妊 1 産） 。妊娠 34 週 1 日。突然の性器出血を主訴に来院した。 第 1 子を妊娠 38 週で経腟分娩している。 体温 36.5 ℃。 脈拍 84/分、 整。 血圧 108/64 mmHg。腟鏡診で腟内に凝血塊の貯留を認め、子宮口から血液流出が持続 している。計測できた出血量は約 250 mL である。腹部超音波検査で胎児推定体重 2,230 g、羊水量は正常。胎児心拍数陣痛図で 10 分ごとの子宮収縮を認め、胎児心 拍数波形に異常を認めない。経腟超音波像 （ 別冊 No. 8 ） を別に示す。 適切な説明はどれか。",
+      "prompt": "32 歳の経産婦 （ 2 妊 1 産） 。妊娠 34 週 1 日。突然の性器出血を主訴に来院した。 第 1 子を妊娠 38 週で経腟分娩している。 体温 36.5 ℃。 脈拍 84/分、 整。 血圧 108/64 mmHg。腟鏡診で腟内に凝血塊の貯留を認め、子宮口から血液流出が持続 している。計測できた出血量は約 250 mL である。腹部超音波検査で胎児推定体重 2,230 g、羊水量は正常。胎児心拍数陣痛図で 10 分ごとの子宮収縮を認め、胎児心 拍数波形に異常を認めない。経腟超音波像 （ 別冊 No. 8 ） を別に示す。 適切な説明はどれか。 76 歳の男性。食欲不振と 倦 怠感を主訴に来院した。 現病歴 ： 1 週間前から 倦 怠感と水様便 （ 1 日 2 回～ 4 回） が出現した。食欲がな く、おかゆを無理に食べている。悪心はあるが嘔吐、腹痛、黒色便および血便はな い。体重が 3 kg 減少した。37 ℃台の微熱があるが悪寒戦慄はない。 既往歴 ： 高血圧症でカルシウム拮抗薬を内服している。アレルギーなし。 生活歴 ： 妻と 2 人暮らし。喫煙は 20 歳から 40 本/日。飲酒歴はない。 家族歴 ： 兄が 60 歳台で大腸癌。 現 症 ： 意識は清明だがややぐったりしている。身長 166 cm、体重 69 kg。体温 37.5 ℃。 脈 拍 104/分、 整。 血 圧 86/50 mmHg。 呼 吸 数 20/分。SpO 96 % （room air） 。皮膚は乾燥し、色素沈着を認めない。眼瞼結膜と眼球結膜とに異常を認めな い。口腔内は乾燥しており咽頭発赤はない。頸静脈の怒張を認めない。甲状腺腫と 頸部リンパ節を触知しない。心音と呼吸音とに異常を認めない。腹部は平坦、軟 で、圧痛はなく、肝・脾を触知しない。四肢末梢は冷たいがチアノーゼや浮腫を認 めない。ばち指を認める。 検査所見 ： 尿所見： 蛋白 （ － ） 、 糖 （ － ） 、 潜血 （ － ） 。 血液所見： 赤血球 437 万、 Hb 12.3 g/dL、Ht 34 %、白血球 5,400 （好中球 45 %、好酸球 21 %、好塩基球 1 %、 単球 9 %、リンパ球 24 %） 、血小板 23 万。血液生化学所見：総蛋白 6.3 g/dL、ア ル ブ ミ ン 3.7 g/dL、 総 ビ リ ル ビ ン 0.5 mg/dL、 直 接 ビ リ ル ビ ン 0.2 mg/dL、 AST 43 U/L、ALT 78 U/L、LD 169 U/L （基 準 120～245） 、ALP 200 U/L （基 準 38 ～113） 、 γ -GT 96 U/L （基 準 8 ～50） 、CK 100 U/L （基 準 30～140） 、 尿 素 窒 素",
       "options": {
         "A": "「緊急帝王切開が必要です」",
         "B": "「子宮頸管を縫縮します」",
         "C": "「子宮収縮薬を点滴します」",
         "D": "「自己血貯血を行います」",
-        "E": "「副腎皮質ステロイドを筋肉注射します」 別 冊 No. 8 次の文を読み 、 60～62 の問いに答えよ。 76 歳の男性。食欲不振と 倦 怠感を主訴に来院した。 現病歴 ： 1 週間前から 倦 怠感と水様便 （ 1 日 2 回～ 4 回） が出現した。食欲がな く、おかゆを無理に食べている。悪心はあるが嘔吐、腹痛、黒色便および血便はな い。体重が 3 kg 減少した。37 ℃台の微熱があるが悪寒戦慄はない。 既往歴 ： 高血圧症でカルシウム拮抗薬を内服している。アレルギーなし。 生活歴 ： 妻と 2 人暮らし。喫煙は 20 歳から 40 本/日。飲酒歴はない。 家族歴 ： 兄が 60 歳台で大腸癌。 現 症 ： 意識は清明だがややぐったりしている。身長 166 cm、体重 69 kg。体温 37.5 ℃。 脈 拍 104/分、 整。 血 圧 86/50 mmHg。 呼 吸 数 20/分。SpO 96 % （room air） 。皮膚は乾燥し、色素沈着を認めない。眼瞼結膜と眼球結膜とに異常を認めな い。口腔内は乾燥しており咽頭発赤はない。頸静脈の怒張を認めない。甲状腺腫と 頸部リンパ節を触知しない。心音と呼吸音とに異常を認めない。腹部は平坦、軟 で、圧痛はなく、肝・脾を触知しない。四肢末梢は冷たいがチアノーゼや浮腫を認 めない。ばち指を認める。 検査所見 ： 尿所見： 蛋白 （ － ） 、 糖 （ － ） 、 潜血 （ － ） 。 血液所見： 赤血球 437 万、 Hb 12.3 g/dL、Ht 34 %、白血球 5,400 （好中球 45 %、好酸球 21 %、好塩基球 1 %、 単球 9 %、リンパ球 24 %） 、血小板 23 万。血液生化学所見：総蛋白 6.3 g/dL、ア ル ブ ミ ン 3.7 g/dL、 総 ビ リ ル ビ ン 0.5 mg/dL、 直 接 ビ リ ル ビ ン 0.2 mg/dL、 AST 43 U/L、ALT 78 U/L、LD 169 U/L （基 準 120～245） 、ALP 200 U/L （基 準 38 ～113） 、 γ -GT 96 U/L （基 準 8 ～50） 、CK 100 U/L （基 準 30～140） 、 尿 素 窒 素"
+        "E": "「副腎皮質ステロイドを筋肉注射します」 別 冊 No. 8"
       },
       "optionOrder": [
         "A",
@@ -4482,6 +4659,9 @@
       ],
       "answer": "A",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-08-1.png"
     },
     {
@@ -4521,7 +4701,7 @@
         "B": "病状の変化により話し合いを繰り返す。",
         "C": "患者の意思を代行できる人がいるか聞く。",
         "D": "家族の意向を本人の意向よりも優先する。",
-        "E": "病状や予後について患者の理解を確かめる。 次の文を読み 、 63～65 の問いに答えよ。"
+        "E": "病状や予後について患者の理解を確かめる。"
       },
       "optionOrder": [
         "A",
@@ -4641,7 +4821,7 @@
         "B": "AB 陽性 なし なし",
         "C": "AB 陰性 なし なし",
         "D": "O 陽性 なし あり",
-        "E": "O 陰性 なし あり 次の文を読み 、 69～71 の問いに答えよ。"
+        "E": "O 陰性 なし あり"
       },
       "optionOrder": [
         "A",
@@ -4707,13 +4887,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp230502-01.html",
       "section": "C",
       "number": 71,
-      "prompt": "この患者への対応で最も適切なのはどれか。",
+      "prompt": "この患者への対応で最も適切なのはどれか。 85 歳の男性。発熱と呼吸困難を主訴に家族とともに来院した。 現病歴 ： 1 年前から息切れのため自宅の階段を昇ることが困難となり、食事や飲 水の際のむせが出現した。食事量も低下し、半年間で体重が 5 kg 減少した。 1 週 間前から咳嗽と喀痰が多くなり、 2 日前から 38 ℃の発熱と呼吸困難がみられるよ うになったため家族に伴われて受診し、入院した。 既往歴 ： 15 年前から高血圧症に対してアンジオテンシン変換酵素 〈ACE〉 阻害薬 を内服している。 5 年前から物忘れが目立つようになり、 2 年前に Alzheimer 型 認知症と診断された。 生活歴 ： 65 歳まで会社員。現在は娘の家族と同居。喫煙は 65 歳まで 20 本/日を",
       "options": {
         "A": "電気的除細動",
         "B": "β 遮断薬の静注",
         "C": "人工血管置換術",
         "D": "経皮的冠動脈ステント留置術",
-        "E": "大動脈ステントグラフト内挿術 次の文を読み 、 72～74 の問いに答えよ。 85 歳の男性。発熱と呼吸困難を主訴に家族とともに来院した。 現病歴 ： 1 年前から息切れのため自宅の階段を昇ることが困難となり、食事や飲 水の際のむせが出現した。食事量も低下し、半年間で体重が 5 kg 減少した。 1 週 間前から咳嗽と喀痰が多くなり、 2 日前から 38 ℃の発熱と呼吸困難がみられるよ うになったため家族に伴われて受診し、入院した。 既往歴 ： 15 年前から高血圧症に対してアンジオテンシン変換酵素 〈ACE〉 阻害薬 を内服している。 5 年前から物忘れが目立つようになり、 2 年前に Alzheimer 型 認知症と診断された。 生活歴 ： 65 歳まで会社員。現在は娘の家族と同居。喫煙は 65 歳まで 20 本/日を"
+        "E": "大動脈ステントグラフト内挿術"
       },
       "optionOrder": [
         "A",
@@ -4748,6 +4928,9 @@
       ],
       "answer": "BCE",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/C/no-12-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-12-1.png"
     },
     {
@@ -4822,6 +5005,10 @@
       ],
       "answer": "B",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-01-1.png",
+        "data/generated/booklet-images/2023/D/no-01-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-01-1.png"
     },
     {
@@ -4920,6 +5107,9 @@
       ],
       "answer": "A",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-02-1.png"
     },
     {
@@ -5210,6 +5400,9 @@
       ],
       "answer": "D",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-03-1.png"
     },
     {
@@ -5260,6 +5453,9 @@
       ],
       "answer": "C",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-05-1.png"
     },
     {
@@ -5406,6 +5602,9 @@
       ],
       "answer": "C",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-06-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-06-1.png"
     },
     {
@@ -5456,6 +5655,9 @@
       ],
       "answer": "B",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-07-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-07-fallback.png"
     },
     {
@@ -5482,6 +5684,10 @@
       ],
       "answer": "B",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-08-1.png",
+        "data/generated/booklet-images/2023/D/no-08-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-08-1.png"
     },
     {
@@ -5508,6 +5714,9 @@
       ],
       "answer": "D",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-09-1.png"
     },
     {
@@ -5558,6 +5767,10 @@
       ],
       "answer": "A",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-10-1.png",
+        "data/generated/booklet-images/2023/D/no-10-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-10-1.png"
     },
     {
@@ -5584,6 +5797,9 @@
       ],
       "answer": "E",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-11-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-11-fallback.png"
     },
     {
@@ -5634,6 +5850,9 @@
       ],
       "answer": "E",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-12-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-12-1.png"
     },
     {
@@ -5804,6 +6023,11 @@
       ],
       "answer": "D",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-14-1.png",
+        "data/generated/booklet-images/2023/D/no-14-2.png",
+        "data/generated/booklet-images/2023/D/no-14-3.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-14-1.png"
     },
     {
@@ -5830,6 +6054,9 @@
       ],
       "answer": "AD",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-15-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-15-1.png"
     },
     {
@@ -5856,6 +6083,10 @@
       ],
       "answer": "E",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-16-1.png",
+        "data/generated/booklet-images/2023/D/no-16-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-16-1.png"
     },
     {
@@ -5906,6 +6137,11 @@
       ],
       "answer": "AC",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-17-1.png",
+        "data/generated/booklet-images/2023/D/no-17-2.png",
+        "data/generated/booklet-images/2023/D/no-17-3.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-17-1.png"
     },
     {
@@ -5956,6 +6192,9 @@
       ],
       "answer": "C",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-18-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-18-1.png"
     },
     {
@@ -5982,6 +6221,9 @@
       ],
       "answer": "E",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-19-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-19-1.png"
     },
     {
@@ -6080,6 +6322,9 @@
       ],
       "answer": "B",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-20-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-20-fallback.png"
     },
     {
@@ -6106,6 +6351,9 @@
       ],
       "answer": "A",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-21-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-21-1.png"
     },
     {
@@ -6132,6 +6380,9 @@
       ],
       "answer": "B",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-22-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-22-1.png"
     },
     {
@@ -6182,6 +6433,9 @@
       ],
       "answer": "A",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-23-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-23-fallback.png"
     },
     {
@@ -6232,6 +6486,10 @@
       ],
       "answer": "E",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-24-1.png",
+        "data/generated/booklet-images/2023/D/no-24-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-24-1.png"
     },
     {
@@ -6258,6 +6516,10 @@
       ],
       "answer": "BC",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-25-1.png",
+        "data/generated/booklet-images/2023/D/no-25-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-25-1.png"
     },
     {
@@ -6284,6 +6546,9 @@
       ],
       "answer": "D",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-26-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-26-fallback.png"
     },
     {
@@ -6334,6 +6599,9 @@
       ],
       "answer": "C",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-27-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-27-1.png"
     },
     {
@@ -6432,6 +6700,9 @@
       ],
       "answer": "B",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-28-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-28-1.png"
     },
     {
@@ -6458,6 +6729,11 @@
       ],
       "answer": "E",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-29-1.png",
+        "data/generated/booklet-images/2023/D/no-29-2.png",
+        "data/generated/booklet-images/2023/D/no-29-3.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-29-1.png"
     },
     {
@@ -6484,6 +6760,9 @@
       ],
       "answer": "C",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-30-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-30-1.png"
     },
     {
@@ -6510,6 +6789,9 @@
       ],
       "answer": "C",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-31-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-31-1.png"
     },
     {
@@ -6536,6 +6818,10 @@
       ],
       "answer": "D",
       "bookletNo": 32,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-32-1.png",
+        "data/generated/booklet-images/2023/D/no-32-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-32-1.png"
     },
     {
@@ -6562,6 +6848,9 @@
       ],
       "answer": "B",
       "bookletNo": 33,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-33-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-33-1.png"
     },
     {
@@ -6588,6 +6877,10 @@
       ],
       "answer": "A",
       "bookletNo": 34,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/D/no-34-1.png",
+        "data/generated/booklet-images/2023/D/no-34-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-34-1.png"
     },
     {
@@ -6758,6 +7051,9 @@
       ],
       "answer": "E",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-01-fallback.png"
     },
     {
@@ -6784,6 +7080,9 @@
       ],
       "answer": "A",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-02-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-02-fallback.png"
     },
     {
@@ -7050,6 +7349,9 @@
       ],
       "answer": "B",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-03-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-03-fallback.png"
     },
     {
@@ -7220,6 +7522,9 @@
       ],
       "answer": "A",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-04-1.png"
     },
     {
@@ -7318,6 +7623,9 @@
       ],
       "answer": "B",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-05-1.png"
     },
     {
@@ -7392,6 +7700,9 @@
       ],
       "answer": "E",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-06-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-06-1.png"
     },
     {
@@ -7527,7 +7838,7 @@
         "B": "「足は清潔を保つようにしてください」",
         "C": "「左膝までの血流は良好に保たれています」",
         "D": "「傷の治りが悪いのは血行が悪いためです」",
-        "E": "「心臓を養う血管の病気をしばしば合併します」 別 冊 No. 7 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "「心臓を養う血管の病気をしばしば合併します」 別 冊 No. 7"
       },
       "optionOrder": [
         "A",
@@ -7538,6 +7849,9 @@
       ],
       "answer": "C",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/E/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-07-1.png"
     },
     {
@@ -7577,7 +7891,7 @@
         "B": "そう考える原因を問い詰める。",
         "C": "日本人の胃癌の罹患率を伝える。",
         "D": "視線を合わせて、次の言葉を待つ。",
-        "E": "その考えの善し悪しの評価を伝える。 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "その考えの善し悪しの評価を伝える。"
       },
       "optionOrder": [
         "A",
@@ -7625,7 +7939,7 @@
         "B": "強度の高い運動療法",
         "C": "1 日 1,200 kcal の食事療法",
         "D": "スルホニル尿素薬による厳格な血糖コントロール",
-        "E": "心身機能の評価をもとにした血糖コントロール目標の設定 次の文を読み 、 45 、 46 の問いに答えよ。"
+        "E": "心身機能の評価をもとにした血糖コントロール目標の設定"
       },
       "optionOrder": [
         "A",
@@ -7673,7 +7987,7 @@
         "B": "インフルエンザウイルス迅速抗原検査",
         "C": "アデノウイルス迅速検査",
         "D": "マイコプラズマ迅速検査",
-        "E": "RS ウイルス迅速検査 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "RS ウイルス迅速検査"
       },
       "optionOrder": [
         "A",
@@ -7721,7 +8035,7 @@
         "B": "鼻から挿入する。",
         "C": "抵抗に注意しながら挿入する。",
         "D": "吸引して胃内容物を確認する。",
-        "E": "胸部エックス線写真で位置を確認する。 次の文を読み 、 49 、 50 の問いに答えよ。"
+        "E": "胸部エックス線写真で位置を確認する。"
       },
       "optionOrder": [
         "A",
@@ -7996,6 +8310,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-01-fallback.png"
     },
     {
@@ -8742,6 +9059,9 @@
       ],
       "answer": "B",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-02-1.png"
     },
     {
@@ -8912,6 +9232,9 @@
       ],
       "answer": "A",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-03-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-03-fallback.png"
     },
     {
@@ -8962,6 +9285,9 @@
       ],
       "answer": "A",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-04-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-04-fallback.png"
     },
     {
@@ -9036,6 +9362,9 @@
       ],
       "answer": "C",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-05-1.png"
     },
     {
@@ -9134,6 +9463,9 @@
       ],
       "answer": "E",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-06-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-06-fallback.png"
     },
     {
@@ -9149,7 +9481,7 @@
         "B": "運 動",
         "C": "脱 水",
         "D": "スタチンの開始",
-        "E": "降圧利尿薬の開始 次の文を読み 、 59～61 の問いに答えよ。"
+        "E": "降圧利尿薬の開始"
       },
       "optionOrder": [
         "A",
@@ -9184,6 +9516,9 @@
       ],
       "answer": "E",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-07-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-07-fallback.png"
     },
     {
@@ -9210,6 +9545,9 @@
       ],
       "answer": "D",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-08-1.png"
     },
     {
@@ -9225,7 +9563,7 @@
         "B": "保健所に連絡する。",
         "C": "司法解剖を依頼する。",
         "D": "死亡診断書を作成する。",
-        "E": "医療安全支援センターに届け出る。 次の文を読み 、 62～64 の問いに答えよ。"
+        "E": "医療安全支援センターに届け出る。"
       },
       "optionOrder": [
         "A",
@@ -9297,7 +9635,7 @@
         "B": "気管挿管",
         "C": "高流量酸素",
         "D": "高気圧酸素治療",
-        "E": "非侵襲的陽圧換気 〈NPPV〉 次の文を読み 、 65～67 の問いに答えよ。"
+        "E": "非侵襲的陽圧換気 〈NPPV〉"
       },
       "optionOrder": [
         "A",
@@ -9363,13 +9701,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp230502-01.html",
       "section": "F",
       "number": 67,
-      "prompt": "腹腔鏡下胆囊摘出時に胆囊底部を挙上すると脈管損傷に注意を要する領域 （Calot 三角） が出現する。解剖図 （ 別冊 No. 9 ） を別に示す。 この領域の境界はどれか。 3 つ選べ 。",
+      "prompt": "腹腔鏡下胆囊摘出時に胆囊底部を挙上すると脈管損傷に注意を要する領域 （Calot 三角） が出現する。解剖図 （ 別冊 No. 9 ） を別に示す。 この領域の境界はどれか。 3 つ選べ 。 76 歳の女性。歩行障害を主訴に来院した。 現病歴 ： 6 年前から左上肢の動かしにくさが出現し、 4 年前から歩くのが遅く なった。 4 年前から自宅近くの診療所でレボドパ 〈L-dopa〉 を処方され症状は改善 した。 1 年前から内服薬の効果が持続しなくなり、歩行困難が進行した。半年前か ら、歩行中に足が止まってしまうことがあり、 2 回転倒したため専門外来を受診し た。 既往歴 ： 脂質異常症でスタチンを内服している。 生活歴 ： 喫煙歴、飲酒歴はない。転倒しないようにほとんど外出しない。室内の トイレ歩行などの日常生活動作は自立している。 家族歴 ： 特記すべきことはない。 現 症 ： 意識は清明。身長 158 cm、体重 45 kg。体温 36.2 ℃。脈拍 64/分、整。 血圧 110/60 mmHg。胸腹部に異常を認めない。神経診察では仮面様顔貌、小声お よび摂食時のむせこみを認める。四肢筋強剛、動作緩慢を認める。筋力低下、感覚 低下は認めない。 検査所見 ： 血液所見： 赤血球 340 万、Hb 11.2 g/dL、 白血球 6,300、 血小板 13 万。 血液生化学所見： 総蛋白 6.3 g/dL、 アルブミン 4.5 g/dL、 総ビリルビン 0 . 2 m g /d L 、 A S T 2 4 U /L 、 A L T 1 8 U /L 、 L D 1 6 0 U /L （ 基 準 1 2 0 ～2 4 5 ） 、 γ -GT 41 U/L （基準 8 ～50） 、CK 58 U/L （基準 30～140） 、 尿素窒素 18 mg/dL、 ク レ ア チ ニ ン 0.6 mg/dL、 血 糖 98 mg/dL、Na 138 mEq/L、K 4.0 mEq/L、 Cl 97 mEq/L。CRP 0.2 mg/dL。",
       "options": {
         "A": "A",
         "B": "B",
         "C": "C",
         "D": "D",
-        "E": "E 別 冊 No. 9 次の文を読み 、 68～70 の問いに答えよ。 76 歳の女性。歩行障害を主訴に来院した。 現病歴 ： 6 年前から左上肢の動かしにくさが出現し、 4 年前から歩くのが遅く なった。 4 年前から自宅近くの診療所でレボドパ 〈L-dopa〉 を処方され症状は改善 した。 1 年前から内服薬の効果が持続しなくなり、歩行困難が進行した。半年前か ら、歩行中に足が止まってしまうことがあり、 2 回転倒したため専門外来を受診し た。 既往歴 ： 脂質異常症でスタチンを内服している。 生活歴 ： 喫煙歴、飲酒歴はない。転倒しないようにほとんど外出しない。室内の トイレ歩行などの日常生活動作は自立している。 家族歴 ： 特記すべきことはない。 現 症 ： 意識は清明。身長 158 cm、体重 45 kg。体温 36.2 ℃。脈拍 64/分、整。 血圧 110/60 mmHg。胸腹部に異常を認めない。神経診察では仮面様顔貌、小声お よび摂食時のむせこみを認める。四肢筋強剛、動作緩慢を認める。筋力低下、感覚 低下は認めない。 検査所見 ： 血液所見： 赤血球 340 万、Hb 11.2 g/dL、 白血球 6,300、 血小板 13 万。 血液生化学所見： 総蛋白 6.3 g/dL、 アルブミン 4.5 g/dL、 総ビリルビン 0 . 2 m g /d L 、 A S T 2 4 U /L 、 A L T 1 8 U /L 、 L D 1 6 0 U /L （ 基 準 1 2 0 ～2 4 5 ） 、 γ -GT 41 U/L （基準 8 ～50） 、CK 58 U/L （基準 30～140） 、 尿素窒素 18 mg/dL、 ク レ ア チ ニ ン 0.6 mg/dL、 血 糖 98 mg/dL、Na 138 mEq/L、K 4.0 mEq/L、 Cl 97 mEq/L。CRP 0.2 mg/dL。"
+        "E": "E 別 冊 No. 9"
       },
       "optionOrder": [
         "A",
@@ -9380,6 +9718,9 @@
       ],
       "answer": "ACD",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-09-1.png"
     },
     {
@@ -9406,6 +9747,9 @@
       ],
       "answer": "A",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-10-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-10-1.png"
     },
     {
@@ -9445,7 +9789,7 @@
         "B": "住宅改修",
         "C": "歩行訓練",
         "D": "失語症訓練",
-        "E": "短下肢装具 次の文を読み 、 71～73 の問いに答えよ。"
+        "E": "短下肢装具"
       },
       "optionOrder": [
         "A",
@@ -9504,6 +9848,9 @@
       ],
       "answer": "A",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2023/F/no-11-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-11-1.png"
     },
     {
@@ -9866,6 +10213,9 @@
       ],
       "answer": "C",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-01-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-01-1.png"
     },
     {
@@ -9916,6 +10266,9 @@
       ],
       "answer": "E",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-02-1.png"
     },
     {
@@ -9942,6 +10295,9 @@
       ],
       "answer": "E",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-03-1.png"
     },
     {
@@ -9992,6 +10348,9 @@
       ],
       "answer": "B",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-04-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-04-fallback.png"
     },
     {
@@ -10018,6 +10377,9 @@
       ],
       "answer": "D",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-05-fallback.png"
     },
     {
@@ -10044,6 +10406,9 @@
       ],
       "answer": "E",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-06-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-06-fallback.png"
     },
     {
@@ -10070,6 +10435,9 @@
       ],
       "answer": "A",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-07-1.png"
     },
     {
@@ -10096,6 +10464,9 @@
       ],
       "answer": "A",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-08-1.png"
     },
     {
@@ -10146,6 +10517,9 @@
       ],
       "answer": "E",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-09-1.png"
     },
     {
@@ -10172,6 +10546,10 @@
       ],
       "answer": "A",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-10-1.png",
+        "data/generated/booklet-images/2024/A/no-10-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-10-1.png"
     },
     {
@@ -10198,6 +10576,9 @@
       ],
       "answer": "D",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-11-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-11-fallback.png"
     },
     {
@@ -10320,6 +10701,9 @@
       ],
       "answer": "C",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-12-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-12-1.png"
     },
     {
@@ -10346,6 +10730,9 @@
       ],
       "answer": "D",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-13-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-13-1.png"
     },
     {
@@ -10444,6 +10831,9 @@
       ],
       "answer": "D",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-14-1.png"
     },
     {
@@ -10470,6 +10860,9 @@
       ],
       "answer": "C",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-15-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-15-1.png"
     },
     {
@@ -10520,6 +10913,9 @@
       ],
       "answer": "E",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-16-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-16-1.png"
     },
     {
@@ -10546,6 +10942,10 @@
       ],
       "answer": "B",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-17-1.png",
+        "data/generated/booklet-images/2024/A/no-17-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-17-1.png"
     },
     {
@@ -10620,6 +11020,10 @@
       ],
       "answer": "B",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-18-1.png",
+        "data/generated/booklet-images/2024/A/no-18-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-18-1.png"
     },
     {
@@ -10646,6 +11050,10 @@
       ],
       "answer": "B",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-19-1.png",
+        "data/generated/booklet-images/2024/A/no-19-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-19-1.png"
     },
     {
@@ -10696,6 +11104,9 @@
       ],
       "answer": "B",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-20-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-20-1.png"
     },
     {
@@ -10722,6 +11133,10 @@
       ],
       "answer": "D",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-21-1.png",
+        "data/generated/booklet-images/2024/A/no-21-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-21-1.png"
     },
     {
@@ -10772,6 +11187,9 @@
       ],
       "answer": "D",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-22-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-22-fallback.png"
     },
     {
@@ -10798,6 +11216,9 @@
       ],
       "answer": "B",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-23-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-23-fallback.png"
     },
     {
@@ -10848,6 +11269,9 @@
       ],
       "answer": "A",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-24-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-24-1.png"
     },
     {
@@ -10898,6 +11322,9 @@
       ],
       "answer": "C",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-25-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-25-1.png"
     },
     {
@@ -10924,6 +11351,9 @@
       ],
       "answer": "B",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-26-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-26-1.png"
     },
     {
@@ -11022,6 +11452,9 @@
       ],
       "answer": "E",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-27-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-27-fallback.png"
     },
     {
@@ -11168,6 +11601,9 @@
       ],
       "answer": "A",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-28-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-28-fallback.png"
     },
     {
@@ -11194,6 +11630,9 @@
       ],
       "answer": "AD",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-29-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-29-1.png"
     },
     {
@@ -11220,6 +11659,9 @@
       ],
       "answer": "AD",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-30-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-30-1.png"
     },
     {
@@ -11246,6 +11688,9 @@
       ],
       "answer": "BE",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-31-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-31-1.png"
     },
     {
@@ -11296,6 +11741,9 @@
       ],
       "answer": "BCE",
       "bookletNo": 32,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/A/no-32-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-32-1.png"
     },
     {
@@ -11634,6 +12082,9 @@
       ],
       "answer": "E",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/B/no-01-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-01-1.png"
     },
     {
@@ -11780,6 +12231,9 @@
       ],
       "answer": "C",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/B/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-02-1.png"
     },
     {
@@ -12166,6 +12620,9 @@
       ],
       "answer": "C",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/B/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-03-1.png"
     },
     {
@@ -12216,6 +12673,9 @@
       ],
       "answer": "A",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/B/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-04-1.png"
     },
     {
@@ -12303,7 +12763,7 @@
         "B": "AST",
         "C": "血小板数",
         "D": "ヘマトクリット値",
-        "E": "尿蛋白/クレアチニン比 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "尿蛋白/クレアチニン比"
       },
       "optionOrder": [
         "A",
@@ -12351,7 +12811,7 @@
         "B": "50 % ブドウ糖の静注",
         "C": "生理食塩水の点滴静注",
         "D": "アルブミン製剤の点滴静注",
-        "E": "分岐鎖アミノ酸製剤の点滴静注 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "分岐鎖アミノ酸製剤の点滴静注"
       },
       "optionOrder": [
         "A",
@@ -12393,13 +12853,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
       "section": "B",
       "number": 44,
-      "prompt": "処置後に撮影した頭部単純 CT （ 別冊 No. 5 ） を別に示す。 診断はどれか。",
+      "prompt": "処置後に撮影した頭部単純 CT （ 別冊 No. 5 ） を別に示す。 診断はどれか。 77 歳の女性。突然の胸背部痛と疲労感を主訴に救急車で搬入された。 現病歴 ： 本日未明に突然の胸背部痛で目覚めて 30 分ほどベッドに横になってい たが、身の置き所のない疲労感が増悪するため救急車を要請した。 既往歴 ： 糖尿病、高血圧症で内服加療中。 生活歴 ： 80 歳の夫と 2 人暮らし。問題なく家事をこなしていた。喫煙歴はない。 飲酒は機会飲酒。 家族歴 ： 特記すべきことはない。 現 症 ： 意識は清明。身長 150 cm、体重 51 kg。体温 36.1 ℃。心拍数 96/分、 整。上肢血圧 102/70 mmHg、下肢血圧 114/60 mmHg。呼吸数 15/分。SpO 98 % （room air） 。呼吸音に異常を認めない。胸骨左縁第 3 肋間を最強点とする Levine 2/6 の拡張期雑音を聴取する。腹部は平坦、軟で、肝・脾を触知しない。頸部に痛 みはない。両肩の痛みを訴えるが、圧痛と可動域制限を認めない。 検査所見 ： 血液所見：赤血球 391 万、Hb 11.9 g/dL、Ht 37 %、白血球 8,600、 血小板 16 万。血液生化学所見：総蛋白 6.4 g/dL、アルブミン 3.0 g/dL、総ビリ ル ビ ン 1.7 mg/dL、AST 98 U/L、ALT 134 U/L、LD 263 U/L （基 準 124～222） 、 CK 74 U/L （基 準 41～153） 、尿 素 窒 素 24 mg/dL、ク レ ア チ ニ ン 0.6 mg/dL、Na 139 mEq/L、K 4.8 mEq/L、Cl 105 mEq/L。CRP 6.8 mg/dL。 心電図 （ 別冊 No. 6Ａ ） 、胸椎エックス線写真 （ 別冊 No. 6Ｂ ） 及び胸部単純 CT （ 別 冊 No. 6Ｃ ） を別に示す。 別 冊 No. 6 Ａ～Ｃ",
       "options": {
         "A": "脳挫傷",
         "B": "皮質下出血",
         "C": "急性硬膜外血腫",
         "D": "急性硬膜下血腫",
-        "E": "びまん性軸索損傷 別 冊 No. 5 次の文を読み 、 45 、 46 の問いに答えよ。 77 歳の女性。突然の胸背部痛と疲労感を主訴に救急車で搬入された。 現病歴 ： 本日未明に突然の胸背部痛で目覚めて 30 分ほどベッドに横になってい たが、身の置き所のない疲労感が増悪するため救急車を要請した。 既往歴 ： 糖尿病、高血圧症で内服加療中。 生活歴 ： 80 歳の夫と 2 人暮らし。問題なく家事をこなしていた。喫煙歴はない。 飲酒は機会飲酒。 家族歴 ： 特記すべきことはない。 現 症 ： 意識は清明。身長 150 cm、体重 51 kg。体温 36.1 ℃。心拍数 96/分、 整。上肢血圧 102/70 mmHg、下肢血圧 114/60 mmHg。呼吸数 15/分。SpO 98 % （room air） 。呼吸音に異常を認めない。胸骨左縁第 3 肋間を最強点とする Levine 2/6 の拡張期雑音を聴取する。腹部は平坦、軟で、肝・脾を触知しない。頸部に痛 みはない。両肩の痛みを訴えるが、圧痛と可動域制限を認めない。 検査所見 ： 血液所見：赤血球 391 万、Hb 11.9 g/dL、Ht 37 %、白血球 8,600、 血小板 16 万。血液生化学所見：総蛋白 6.4 g/dL、アルブミン 3.0 g/dL、総ビリ ル ビ ン 1.7 mg/dL、AST 98 U/L、ALT 134 U/L、LD 263 U/L （基 準 124～222） 、 CK 74 U/L （基 準 41～153） 、尿 素 窒 素 24 mg/dL、ク レ ア チ ニ ン 0.6 mg/dL、Na 139 mEq/L、K 4.8 mEq/L、Cl 105 mEq/L。CRP 6.8 mg/dL。 心電図 （ 別冊 No. 6Ａ ） 、胸椎エックス線写真 （ 別冊 No. 6Ｂ ） 及び胸部単純 CT （ 別 冊 No. 6Ｃ ） を別に示す。 別 冊 No. 6 Ａ～Ｃ"
+        "E": "びまん性軸索損傷 別 冊 No. 5"
       },
       "optionOrder": [
         "A",
@@ -12410,6 +12870,9 @@
       ],
       "answer": "D",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/B/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-05-fallback.png"
     },
     {
@@ -12449,7 +12912,7 @@
         "B": "緊急手術",
         "C": "胸腔ドレナージ",
         "D": "心臓カテーテル検査",
-        "E": "大動脈内バルーンパンピング 〈IABP〉 挿入 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "大動脈内バルーンパンピング 〈IABP〉 挿入"
       },
       "optionOrder": [
         "A",
@@ -12491,13 +12954,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
       "section": "B",
       "number": 48,
-      "prompt": "この患者が利用できる社会保障制度の説明を依頼すべき職種で最も適切なのはど れか。",
+      "prompt": "この患者が利用できる社会保障制度の説明を依頼すべき職種で最も適切なのはど れか。 78 歳の女性。食欲不振のため救急車で搬入された。 現病歴 ： 約 1 週間前から食事摂取が減少し一日中ベッドに横になっていることが 多くなった。昨日から食事摂取が困難となったため、夫が救急車を要請した。 既往歴 ： 約25 年前に高血圧症、約 2 年前に Alzheimer 型認知症および骨粗鬆症 と診断された。 3 か月前に左大腿骨転子下骨折に対して手術が行われた。アンジオ テンシン受容体拮抗薬 〈ARB〉 、カルシウム拮抗薬、活性型ビタミン D 製剤および コリンエステラーゼ阻害薬を服用している。 生活歴 ： 夫と 2 人暮らし。喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 父が脳梗塞、母が脳出血。 現 症 ： 意識レベルは JCSⅡ-10。身長 151 cm、体重 46 kg。体温 36.4 ℃。心拍 数 100/分、整。血圧 108/78 mmHg。呼吸数 16/分。SpO 95 % （room air） 。眼瞼結 膜と眼球結膜とに異常を認めない。心音と呼吸音とに異常を認めない。腹部は平 坦、軟で、肝・脾を触知しない。四肢に異常を認めない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 （ － ） 、潜血 （ － ） 。血液所見：赤血球 320 万、 Hb 10.1 g/dL、Ht 30 %、白血球 7,200、血小板 23 万。血液生化学所見：総蛋白 7.1 g/dL、アルブミン 3.6 g/dL、総ビリルビン 0.6 mg/dL、AST 23 U/L、ALT",
       "options": {
         "A": "看護師",
         "B": "公認心理師",
         "C": "介護支援専門員",
         "D": "精神保健福祉士",
-        "E": "医療ソーシャルワーカー 次の文を読み 、 49 、 50 の問いに答えよ。 78 歳の女性。食欲不振のため救急車で搬入された。 現病歴 ： 約 1 週間前から食事摂取が減少し一日中ベッドに横になっていることが 多くなった。昨日から食事摂取が困難となったため、夫が救急車を要請した。 既往歴 ： 約25 年前に高血圧症、約 2 年前に Alzheimer 型認知症および骨粗鬆症 と診断された。 3 か月前に左大腿骨転子下骨折に対して手術が行われた。アンジオ テンシン受容体拮抗薬 〈ARB〉 、カルシウム拮抗薬、活性型ビタミン D 製剤および コリンエステラーゼ阻害薬を服用している。 生活歴 ： 夫と 2 人暮らし。喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 父が脳梗塞、母が脳出血。 現 症 ： 意識レベルは JCSⅡ-10。身長 151 cm、体重 46 kg。体温 36.4 ℃。心拍 数 100/分、整。血圧 108/78 mmHg。呼吸数 16/分。SpO 95 % （room air） 。眼瞼結 膜と眼球結膜とに異常を認めない。心音と呼吸音とに異常を認めない。腹部は平 坦、軟で、肝・脾を触知しない。四肢に異常を認めない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 （ － ） 、潜血 （ － ） 。血液所見：赤血球 320 万、 Hb 10.1 g/dL、Ht 30 %、白血球 7,200、血小板 23 万。血液生化学所見：総蛋白 7.1 g/dL、アルブミン 3.6 g/dL、総ビリルビン 0.6 mg/dL、AST 23 U/L、ALT"
+        "E": "医療ソーシャルワーカー"
       },
       "optionOrder": [
         "A",
@@ -12964,6 +13427,9 @@
       ],
       "answer": "C",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-01-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-01-1.png"
     },
     {
@@ -13110,6 +13576,9 @@
       ],
       "answer": "C",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-02-1.png"
     },
     {
@@ -13352,6 +13821,9 @@
       ],
       "answer": "DE",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-03-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-03-fallback.png"
     },
     {
@@ -13426,6 +13898,10 @@
       ],
       "answer": "D",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-04-1.png",
+        "data/generated/booklet-images/2024/C/no-04-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-04-1.png"
     },
     {
@@ -13452,6 +13928,9 @@
       ],
       "answer": "D",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-05-fallback.png"
     },
     {
@@ -13766,6 +14245,9 @@
       ],
       "answer": "A",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-06-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-06-1.png"
     },
     {
@@ -13967,13 +14449,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
       "section": "C",
       "number": 59,
-      "prompt": "83 歳の男性。意識障害のため救急車で搬入された。夏の日中に長時間の草刈り 作業中、ふらつきを訴えていた。その後、意識がもうろうとなっているところを周 囲の作業者が気付き、救急車を要請した。 2 型糖尿病と高血圧症で内服治療中であ る。 意 識 レ ベ ル は JCSⅢ-100。 体 温 38.3 ℃。 心 拍 数 120/分、 整。 血 圧 92/50 mmHg。呼吸数 24/分。SpO 98 % （マスク 5 L/分 酸素投与下） 。口腔内は乾燥し ており、全身に発汗を認める。血液所見：Hb 15.2 g/dL、Ht 53 %。血液生化学所 見：尿素窒素 30 g/dL、クレアチニン 1.2 mg/dL、血糖 98 mg/dL、Na 148 mEq/L、 K 4.6 mEq/L、Cl 104 mEq/L。 初期対応に用いる輸液で適切なのはどれか。 2 つ選べ 。",
+      "prompt": "83 歳の男性。意識障害のため救急車で搬入された。夏の日中に長時間の草刈り 作業中、ふらつきを訴えていた。その後、意識がもうろうとなっているところを周 囲の作業者が気付き、救急車を要請した。 2 型糖尿病と高血圧症で内服治療中であ る。 意 識 レ ベ ル は JCSⅢ-100。 体 温 38.3 ℃。 心 拍 数 120/分、 整。 血 圧 92/50 mmHg。呼吸数 24/分。SpO 98 % （マスク 5 L/分 酸素投与下） 。口腔内は乾燥し ており、全身に発汗を認める。血液所見：Hb 15.2 g/dL、Ht 53 %。血液生化学所 見：尿素窒素 30 g/dL、クレアチニン 1.2 mg/dL、血糖 98 mg/dL、Na 148 mEq/L、 K 4.6 mEq/L、Cl 104 mEq/L。 初期対応に用いる輸液で適切なのはどれか。 2 つ選べ 。 78 歳の男性。嗄声を主訴に来院した。 現病歴 ： 1 か月前に嗄声が出現した。 2 週間前から飲水時に咳嗽が出現するよう になり自宅近くの診療所で鎮咳薬を処方された。咳嗽は改善せず、 3 日前から喀痰 に血液が混じるようになった。 既往歴 ： 3 年前に原発性肺癌のために右肺下葉切除術が施行され経過観察となっ ていた。 1 年前から自己判断で定期的な受診を中断していた。 生活歴 ： 65 歳までは会社員。妻と 2 人暮らし。喫煙は 70 歳まで 20 本/日を 50 年間。飲酒はビール 350 mL/日。 家族歴 ： 弟が 70 歳台で胃癌。 現 症 ： 意識は清明。身長 162 cm、体重 54 kg。体温 36.2 ℃。脈拍 72/分、整。 血圧 124/72 mmHg。呼吸数 16/分。SpO 98 % （room air） 。眼瞼結膜と眼球結膜と に異常を認めない。頸静脈の怒張は認めない。心音と呼吸音とに異常を認めない。 腹部は平坦、軟で、肝・脾を触知しない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 （ － ） 、潜血 （ － ） 。血液所見：赤血球 380 万、Hb 13.8 g/dL、Ht 35 %、白血球 7,600、血小板 24 万。血液生化学所見：総蛋白 6.0 g/dL、 ア ル ブ ミ ン 3.0 g/dL、 総 ビ リ ル ビ ン 0.7 mg/dL、 AST 25 U/L、 ALT",
       "options": {
         "A": "生理食塩液",
         "B": "アミノ酸製剤",
         "C": "高カロリー輸液",
         "D": "5 % ブドウ糖液",
-        "E": "乳酸リンゲル液 次の文を読み 、 60～62 の問いに答えよ。 78 歳の男性。嗄声を主訴に来院した。 現病歴 ： 1 か月前に嗄声が出現した。 2 週間前から飲水時に咳嗽が出現するよう になり自宅近くの診療所で鎮咳薬を処方された。咳嗽は改善せず、 3 日前から喀痰 に血液が混じるようになった。 既往歴 ： 3 年前に原発性肺癌のために右肺下葉切除術が施行され経過観察となっ ていた。 1 年前から自己判断で定期的な受診を中断していた。 生活歴 ： 65 歳までは会社員。妻と 2 人暮らし。喫煙は 70 歳まで 20 本/日を 50 年間。飲酒はビール 350 mL/日。 家族歴 ： 弟が 70 歳台で胃癌。 現 症 ： 意識は清明。身長 162 cm、体重 54 kg。体温 36.2 ℃。脈拍 72/分、整。 血圧 124/72 mmHg。呼吸数 16/分。SpO 98 % （room air） 。眼瞼結膜と眼球結膜と に異常を認めない。頸静脈の怒張は認めない。心音と呼吸音とに異常を認めない。 腹部は平坦、軟で、肝・脾を触知しない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 （ － ） 、潜血 （ － ） 。血液所見：赤血球 380 万、Hb 13.8 g/dL、Ht 35 %、白血球 7,600、血小板 24 万。血液生化学所見：総蛋白 6.0 g/dL、 ア ル ブ ミ ン 3.0 g/dL、 総 ビ リ ル ビ ン 0.7 mg/dL、 AST 25 U/L、 ALT"
+        "E": "乳酸リンゲル液"
       },
       "optionOrder": [
         "A",
@@ -14045,7 +14527,7 @@
         "B": "緩和ケアについて説明する。",
         "C": "在宅ケアに関する患者の意向を聞く。",
         "D": "異なる種類の殺細胞性薬による治療を勧める。",
-        "E": "免疫チェックポイント阻害薬による治療を勧める。 次の文を読み 、 63～65 の問いに答えよ。"
+        "E": "免疫チェックポイント阻害薬による治療を勧める。"
       },
       "optionOrder": [
         "A",
@@ -14117,7 +14599,7 @@
         "B": "ステント留置",
         "C": "静脈瘤硬化療法",
         "D": "ポリペクトミー",
-        "E": "内視鏡的粘膜下層剝離術 〈ESD〉 別 冊 No. 7 Ａ～Ｄ 次の文を読み 、 66～68 の問いに答えよ。"
+        "E": "内視鏡的粘膜下層剝離術 〈ESD〉 別 冊 No. 7 Ａ～Ｄ"
       },
       "optionOrder": [
         "A",
@@ -14128,6 +14610,12 @@
       ],
       "answer": "D",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/C/no-07-1.png",
+        "data/generated/booklet-images/2024/C/no-07-2.png",
+        "data/generated/booklet-images/2024/C/no-07-3.png",
+        "data/generated/booklet-images/2024/C/no-07-4.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-07-1.png"
     },
     {
@@ -14191,7 +14679,7 @@
         "B": "食 道",
         "C": "頭蓋内",
         "D": "動脈内",
-        "E": "膀 胱 次の文を読み 、 69～71 の問いに答えよ。"
+        "E": "膀 胱"
       },
       "optionOrder": [
         "A",
@@ -14257,13 +14745,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
       "section": "C",
       "number": 71,
-      "prompt": "この患者の今後について、アドバンス・ケア・プランニング 〈ACP〉 を行う方針 となった。 誤っている のはどれか。",
+      "prompt": "この患者の今後について、アドバンス・ケア・プランニング 〈ACP〉 を行う方針 となった。 誤っている のはどれか。 78 歳の男性。意識混濁のため救急車で搬入された。 現病歴 ： 8 年前の健康診断で高血糖を指摘されたが、そのままにしていた。半年 前から体重が 10 kg 以上減少した。口渇を自覚し疲れやすくなったため、ジュース や栄養ドリンクをよく飲むようになった。 2 日前から微熱と倦怠感の訴えがあり、 一日中ベッドで横になっていた。本日、家族の呼びかけに応答しなくなったため家 族が救急車を要請した。 既往歴 ： 25 歳時に肝炎。 生活歴 ： 喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 長男が糖尿病で治療中である。 現 症 ： 意識レベルは JCSⅡ-10。身長 168 cm、体重 51 kg。体温 37.2 ℃。心拍 数 92/分、整。血圧 100/64 mmHg。呼吸数 16/分。SpO 98 % （room air） 。対光反 射は両側ともに迅速である。咽頭は腫脹や発赤を認めない。頸静脈の怒張を認めな い。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝・脾を触知しない。 腸雑音を聴取しない。腱反射は低下している。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 4 ＋ 、ケトン体 （ － ） 、潜血 （ － ） 。血液所見：赤 血球 552 万、Hb 15.0 g/dL、Ht 48 %、白血球 10,600、血小板 35 万。血液生化学 所見：総蛋白 8.2 g/dL、アルブミン 4.0 g/dL、総ビリルビン 1.0 mg/dL、直接ビ リルビン 0.2 mg/dL、AST 38 U/L、ALT 40 U/L、LD 208 U/L （基準 124～222） 、 ALP 112 U/L （基準 38～113） 、 γ -GT 84 U/L （基準 13～64） 、アミラーゼ 120 U/L （基 準 44～132） 、CK 162 U/L （基準 59～248） 、尿素窒素 42 mg/dL、クレアチニン 1.8 mg/dL、尿酸 10.8 mg/dL、血糖 936 mg/dL、HbA1c 13.0 % （基準 4.9～6.0） 、総 コ レ ス テ ロ ー ル 262 mg/dL、ト リ グ リ セ リ ド 280 mg/dL、血 清 総 ケ ト ン 体 150 μ mol/L （基準 130 以下） 、Na 137 mEq/L、K 5.0 mEq/L、Cl 102 mEq/L。CRP 0.5 mg/dL。12 誘導心電図で異常を認めない。胸部エックス線写真で心胸郭比 46 %。",
       "options": {
         "A": "多職種で支援する。",
         "B": "患者より夫の意向を優先する。",
         "C": "話し合った内容を記録に残す。",
         "D": "患者が話しやすい環境を整える。",
-        "E": "患者の意思を繰り返し確認する。 次の文を読み 、 72～74 の問いに答えよ。 78 歳の男性。意識混濁のため救急車で搬入された。 現病歴 ： 8 年前の健康診断で高血糖を指摘されたが、そのままにしていた。半年 前から体重が 10 kg 以上減少した。口渇を自覚し疲れやすくなったため、ジュース や栄養ドリンクをよく飲むようになった。 2 日前から微熱と倦怠感の訴えがあり、 一日中ベッドで横になっていた。本日、家族の呼びかけに応答しなくなったため家 族が救急車を要請した。 既往歴 ： 25 歳時に肝炎。 生活歴 ： 喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 長男が糖尿病で治療中である。 現 症 ： 意識レベルは JCSⅡ-10。身長 168 cm、体重 51 kg。体温 37.2 ℃。心拍 数 92/分、整。血圧 100/64 mmHg。呼吸数 16/分。SpO 98 % （room air） 。対光反 射は両側ともに迅速である。咽頭は腫脹や発赤を認めない。頸静脈の怒張を認めな い。心音と呼吸音とに異常を認めない。腹部は平坦、軟で、肝・脾を触知しない。 腸雑音を聴取しない。腱反射は低下している。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 4 ＋ 、ケトン体 （ － ） 、潜血 （ － ） 。血液所見：赤 血球 552 万、Hb 15.0 g/dL、Ht 48 %、白血球 10,600、血小板 35 万。血液生化学 所見：総蛋白 8.2 g/dL、アルブミン 4.0 g/dL、総ビリルビン 1.0 mg/dL、直接ビ リルビン 0.2 mg/dL、AST 38 U/L、ALT 40 U/L、LD 208 U/L （基準 124～222） 、 ALP 112 U/L （基準 38～113） 、 γ -GT 84 U/L （基準 13～64） 、アミラーゼ 120 U/L （基 準 44～132） 、CK 162 U/L （基準 59～248） 、尿素窒素 42 mg/dL、クレアチニン 1.8 mg/dL、尿酸 10.8 mg/dL、血糖 936 mg/dL、HbA1c 13.0 % （基準 4.9～6.0） 、総 コ レ ス テ ロ ー ル 262 mg/dL、ト リ グ リ セ リ ド 280 mg/dL、血 清 総 ケ ト ン 体 150 μ mol/L （基準 130 以下） 、Na 137 mEq/L、K 5.0 mEq/L、Cl 102 mEq/L。CRP 0.5 mg/dL。12 誘導心電図で異常を認めない。胸部エックス線写真で心胸郭比 46 %。"
+        "E": "患者の意思を繰り返し確認する。"
       },
       "optionOrder": [
         "A",
@@ -14706,6 +15194,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-01-fallback.png"
     },
     {
@@ -14732,6 +15223,9 @@
       ],
       "answer": "E",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-02-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-02-fallback.png"
     },
     {
@@ -14830,6 +15324,9 @@
       ],
       "answer": "B",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-03-1.png"
     },
     {
@@ -14928,6 +15425,9 @@
       ],
       "answer": "C",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-04-1.png"
     },
     {
@@ -14954,6 +15454,10 @@
       ],
       "answer": "D",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-05-1.png",
+        "data/generated/booklet-images/2024/D/no-05-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-05-1.png"
     },
     {
@@ -14980,6 +15484,10 @@
       ],
       "answer": "A",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-06-1.png",
+        "data/generated/booklet-images/2024/D/no-06-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-06-1.png"
     },
     {
@@ -15006,6 +15514,9 @@
       ],
       "answer": "B",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-07-1.png"
     },
     {
@@ -15032,6 +15543,9 @@
       ],
       "answer": "C",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-08-1.png"
     },
     {
@@ -15058,6 +15572,9 @@
       ],
       "answer": "E",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-09-1.png"
     },
     {
@@ -15084,6 +15601,9 @@
       ],
       "answer": "E",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-10-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-10-fallback.png"
     },
     {
@@ -15110,6 +15630,9 @@
       ],
       "answer": "C",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-11-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-11-fallback.png"
     },
     {
@@ -15160,6 +15683,9 @@
       ],
       "answer": "C",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-12-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-12-fallback.png"
     },
     {
@@ -15234,6 +15760,9 @@
       ],
       "answer": "A",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-13-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-13-fallback.png"
     },
     {
@@ -15332,6 +15861,9 @@
       ],
       "answer": "A",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-14-1.png"
     },
     {
@@ -15382,6 +15914,9 @@
       ],
       "answer": "D",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-15-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-15-fallback.png"
     },
     {
@@ -15408,6 +15943,9 @@
       ],
       "answer": "B",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-16-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-16-fallback.png"
     },
     {
@@ -15482,6 +16020,9 @@
       ],
       "answer": "E",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-17-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-17-1.png"
     },
     {
@@ -15532,6 +16073,9 @@
       ],
       "answer": "E",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-18-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-18-1.png"
     },
     {
@@ -15582,6 +16126,9 @@
       ],
       "answer": "E",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-19-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-19-1.png"
     },
     {
@@ -15632,6 +16179,9 @@
       ],
       "answer": "E",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-20-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-20-1.png"
     },
     {
@@ -15658,6 +16208,9 @@
       ],
       "answer": "D",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-21-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-21-1.png"
     },
     {
@@ -15708,6 +16261,9 @@
       ],
       "answer": "B",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-22-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-22-1.png"
     },
     {
@@ -15734,6 +16290,10 @@
       ],
       "answer": "E",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-23-1.png",
+        "data/generated/booklet-images/2024/D/no-23-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-23-1.png"
     },
     {
@@ -15832,6 +16392,9 @@
       ],
       "answer": "D",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-24-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-24-1.png"
     },
     {
@@ -15858,6 +16421,9 @@
       ],
       "answer": "C",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-25-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-25-1.png"
     },
     {
@@ -15932,6 +16498,9 @@
       ],
       "answer": "D",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-26-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-26-1.png"
     },
     {
@@ -15958,6 +16527,9 @@
       ],
       "answer": "B",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-27-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-27-1.png"
     },
     {
@@ -16008,6 +16580,9 @@
       ],
       "answer": "CD",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-28-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-28-1.png"
     },
     {
@@ -16034,6 +16609,10 @@
       ],
       "answer": "CD",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-29-1.png",
+        "data/generated/booklet-images/2024/D/no-29-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-29-1.png"
     },
     {
@@ -16084,6 +16663,9 @@
       ],
       "answer": "B",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-07-1.png"
     },
     {
@@ -16158,6 +16740,9 @@
       ],
       "answer": "ABD",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/D/no-31-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-31-1.png"
     },
     {
@@ -16688,6 +17273,9 @@
       ],
       "answer": "A",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/E/no-01-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/E/no-01-1.png"
     },
     {
@@ -16882,6 +17470,9 @@
       ],
       "answer": "C",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/E/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/E/no-02-1.png"
     },
     {
@@ -17113,7 +17704,7 @@
         "B": "②",
         "C": "③",
         "D": "④",
-        "E": "⑤ 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "⑤"
       },
       "optionOrder": [
         "A",
@@ -17161,7 +17752,7 @@
         "B": "頭部単純 CT",
         "C": "脳脊髄液検査",
         "D": "頭部単純 MRI",
-        "E": "脳シングルフォトンエミッション CT 〈SPECT〉 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "脳シングルフォトンエミッション CT 〈SPECT〉"
       },
       "optionOrder": [
         "A",
@@ -17209,7 +17800,7 @@
         "B": "「薬を変える必要があると思います」",
         "C": "「精神疾患とは考えないでよいでしょう」",
         "D": "「このまましばらく様子をみてみましょう」",
-        "E": "「元気なうちにやり残した仕事をしてしまいましょう」 次の文を読み 、 45 、 46 の問いに答えよ。"
+        "E": "「元気なうちにやり残した仕事をしてしまいましょう」"
       },
       "optionOrder": [
         "A",
@@ -17257,7 +17848,7 @@
         "B": "Romberg 徴候陽性",
         "C": "Chaddock 反射陽性",
         "D": "鼻指鼻試験拙劣",
-        "E": "固定姿勢保持困難 〈asterixis〉 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "固定姿勢保持困難 〈asterixis〉"
       },
       "optionOrder": [
         "A",
@@ -17305,7 +17896,7 @@
         "B": "抗ヒスタミン薬",
         "C": "マクロライド系抗菌薬",
         "D": "吸入長時間作用性抗コリン薬",
-        "E": "吸入副腎皮質ステロイド/長時間作用性 β 刺激薬配合剤 次の文を読み 、 49 、 50 の問いに答えよ。"
+        "E": "吸入副腎皮質ステロイド/長時間作用性 β 刺激薬配合剤"
       },
       "optionOrder": [
         "A",
@@ -17532,6 +18123,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-01-fallback.png"
     },
     {
@@ -17798,6 +18392,9 @@
       ],
       "answer": "D",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-02-1.png"
     },
     {
@@ -18232,6 +18829,10 @@
       ],
       "answer": "D",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-03-1.png",
+        "data/generated/booklet-images/2024/F/no-03-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-03-1.png"
     },
     {
@@ -18330,6 +18931,9 @@
       ],
       "answer": "C",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-04-1.png"
     },
     {
@@ -18404,6 +19008,9 @@
       ],
       "answer": "B",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-05-1.png"
     },
     {
@@ -18526,6 +19133,9 @@
       ],
       "answer": "E",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-06-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-06-fallback.png"
     },
     {
@@ -18552,6 +19162,9 @@
       ],
       "answer": "E",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-07-1.png"
     },
     {
@@ -18770,6 +19383,10 @@
       ],
       "answer": "CD",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-08-1.png",
+        "data/generated/booklet-images/2024/F/no-08-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-08-1.png"
     },
     {
@@ -18809,7 +19426,7 @@
         "B": "「着替えはご自身でできますか」",
         "C": "「手助けなしで食事ができますか」",
         "D": "「ご自身で食事の用意をされていますか」",
-        "E": "「トイレを使うのに手助けは必要ですか」 次の文を読み 、 61～63 の問いに答えよ。"
+        "E": "「トイレを使うのに手助けは必要ですか」"
       },
       "optionOrder": [
         "A",
@@ -18881,7 +19498,7 @@
         "B": "心エコー検査",
         "C": "心電図検査",
         "D": "スパイロメトリ",
-        "E": "動脈血ガス分析 次の文を読み 、 64～66 の問いに答えよ。"
+        "E": "動脈血ガス分析"
       },
       "optionOrder": [
         "A",
@@ -18947,13 +19564,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
       "section": "F",
       "number": 66,
-      "prompt": "受傷後 3 か月経過しても筋力の回復がない場合、この患者が自宅療養するにあた り最も適切な装具・福祉用具はどれか。",
+      "prompt": "受傷後 3 か月経過しても筋力の回復がない場合、この患者が自宅療養するにあた り最も適切な装具・福祉用具はどれか。 80 歳の男性。発熱と排尿困難を主訴に来院した。 現病歴 ： 3 日前から排尿困難を自覚していた。本日から悪寒戦慄を伴う発熱が出 現したため救急外来を受診した。 既往歴 ： 高血圧症、糖尿病、脂質異常症、うつ病および蕁麻疹に対してアンジオ テンシン変換酵素 〈ACE〉 阻害薬、DPP-4 阻害薬、スタチン、三環系抗うつ薬およ びヒスタミン H 受容体拮抗薬を内服している。 生活歴 ： 65 歳までは会社員で、現在は無職である。一人暮らし。喫煙は 70 歳ま で 10 本/日を 50 年間、飲酒は機会飲酒。ネコを飼育している。 家族歴 ： 父が脳梗塞、母が糖尿病。 現 症 ： 意 識 は 清 明。身 長 170 cm、体 重 72 kg。体 温 38.8 ℃。脈 拍 112/分、 整。血圧 136/60 mmHg。呼吸数 26/分。SpO 98 % （room air） 。眼瞼結膜と眼球結 膜とに異常を認めない。甲状腺腫と頸部リンパ節とを触知しない。心音と呼吸音と に異常を認めない。下腹部が膨隆しているが、圧痛を認めない。肝・脾は触知しな い。左の肋骨脊柱角に叩打痛を認める。直腸指診で 4 cm 大の前立腺を触知し、圧 痛を認めない。 検査所見 ： 尿所見：蛋白 1 ＋ 、糖 1 ＋ 、潜血 （ － ） 、沈渣に赤血球 1～4/HPF、白 血 球 100 以 上/HPF を 認 め る。血 液 所 見：赤 血 球 461 万、Hb 14.9 g/dL、Ht 44 %、白血球 14,300 （桿状核好中球 2 %、分葉核好中球 90 %、好酸球 1 %、好塩基球",
       "options": {
         "A": "歩行器",
         "B": "短下肢装具",
         "C": "電動車椅子",
         "D": "標準型車椅子",
-        "E": "リフト 〈移乗動作介助装置〉 次の文を読み 、 67～69 の問いに答えよ。 80 歳の男性。発熱と排尿困難を主訴に来院した。 現病歴 ： 3 日前から排尿困難を自覚していた。本日から悪寒戦慄を伴う発熱が出 現したため救急外来を受診した。 既往歴 ： 高血圧症、糖尿病、脂質異常症、うつ病および蕁麻疹に対してアンジオ テンシン変換酵素 〈ACE〉 阻害薬、DPP-4 阻害薬、スタチン、三環系抗うつ薬およ びヒスタミン H 受容体拮抗薬を内服している。 生活歴 ： 65 歳までは会社員で、現在は無職である。一人暮らし。喫煙は 70 歳ま で 10 本/日を 50 年間、飲酒は機会飲酒。ネコを飼育している。 家族歴 ： 父が脳梗塞、母が糖尿病。 現 症 ： 意 識 は 清 明。身 長 170 cm、体 重 72 kg。体 温 38.8 ℃。脈 拍 112/分、 整。血圧 136/60 mmHg。呼吸数 26/分。SpO 98 % （room air） 。眼瞼結膜と眼球結 膜とに異常を認めない。甲状腺腫と頸部リンパ節とを触知しない。心音と呼吸音と に異常を認めない。下腹部が膨隆しているが、圧痛を認めない。肝・脾は触知しな い。左の肋骨脊柱角に叩打痛を認める。直腸指診で 4 cm 大の前立腺を触知し、圧 痛を認めない。 検査所見 ： 尿所見：蛋白 1 ＋ 、糖 1 ＋ 、潜血 （ － ） 、沈渣に赤血球 1～4/HPF、白 血 球 100 以 上/HPF を 認 め る。血 液 所 見：赤 血 球 461 万、Hb 14.9 g/dL、Ht 44 %、白血球 14,300 （桿状核好中球 2 %、分葉核好中球 90 %、好酸球 1 %、好塩基球"
+        "E": "リフト 〈移乗動作介助装置〉"
       },
       "optionOrder": [
         "A",
@@ -19025,7 +19642,7 @@
         "B": "前立腺生検",
         "C": "血中コルチゾール",
         "D": "腹部・骨盤部造影 CT",
-        "E": "抗菌薬を用いたリンパ球刺激試験 次の文を読み 、 70～72 の問いに答えよ。"
+        "E": "抗菌薬を用いたリンパ球刺激試験"
       },
       "optionOrder": [
         "A",
@@ -19097,7 +19714,7 @@
         "B": "交感神経興奮性",
         "C": "鎮静睡眠作用性",
         "D": "オピオイド作動性",
-        "E": "ヒスタミン作用性 次の文を読み 、 73～75 の問いに答えよ。"
+        "E": "ヒスタミン作用性"
       },
       "optionOrder": [
         "A",
@@ -19156,6 +19773,9 @@
       ],
       "answer": "B",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2024/F/no-11-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-11-fallback.png"
     },
     {
@@ -19446,6 +20066,9 @@
       ],
       "answer": "B",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-01-fallback.png"
     },
     {
@@ -19544,6 +20167,10 @@
       ],
       "answer": "A",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-02-1.png",
+        "data/generated/booklet-images/2025/A/no-02-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-02-1.png"
     },
     {
@@ -19618,6 +20245,10 @@
       ],
       "answer": "B",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-03-1.png",
+        "data/generated/booklet-images/2025/A/no-03-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-03-1.png"
     },
     {
@@ -19668,6 +20299,9 @@
       ],
       "answer": "A",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-04-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-04-fallback.png"
     },
     {
@@ -19694,6 +20328,9 @@
       ],
       "answer": "A",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-05-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-05-1.png"
     },
     {
@@ -19720,6 +20357,10 @@
       ],
       "answer": "C",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-06-1.png",
+        "data/generated/booklet-images/2025/A/no-06-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-06-1.png"
     },
     {
@@ -19746,6 +20387,9 @@
       ],
       "answer": "B",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-07-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-07-fallback.png"
     },
     {
@@ -19772,6 +20416,9 @@
       ],
       "answer": "E",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-08-1.png"
     },
     {
@@ -19870,6 +20517,10 @@
       ],
       "answer": "E",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-09-1.png",
+        "data/generated/booklet-images/2025/A/no-09-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-09-1.png"
     },
     {
@@ -19896,6 +20547,9 @@
       ],
       "answer": "D",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-10-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-10-fallback.png"
     },
     {
@@ -19994,6 +20648,9 @@
       ],
       "answer": "C",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-11-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-11-1.png"
     },
     {
@@ -20020,6 +20677,9 @@
       ],
       "answer": "A",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-13-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-13-1.png"
     },
     {
@@ -20046,6 +20706,9 @@
       ],
       "answer": "A",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-13-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-13-1.png"
     },
     {
@@ -20096,6 +20759,9 @@
       ],
       "answer": "B",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-14-1.png"
     },
     {
@@ -20122,6 +20788,9 @@
       ],
       "answer": "E",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-15-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-15-1.png"
     },
     {
@@ -20244,6 +20913,9 @@
       ],
       "answer": "B",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-14-1.png"
     },
     {
@@ -20366,6 +21038,9 @@
       ],
       "answer": "E",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-17-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-17-1.png"
     },
     {
@@ -20392,6 +21067,9 @@
       ],
       "answer": "A",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-18-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-18-fallback.png"
     },
     {
@@ -20418,6 +21096,9 @@
       ],
       "answer": "C",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-19-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-19-fallback.png"
     },
     {
@@ -20444,6 +21125,10 @@
       ],
       "answer": "D",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-20-1.png",
+        "data/generated/booklet-images/2025/A/no-20-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-20-1.png"
     },
     {
@@ -20470,6 +21155,9 @@
       ],
       "answer": "D",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-21-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-21-1.png"
     },
     {
@@ -20520,6 +21208,9 @@
       ],
       "answer": "D",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-22-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-22-1.png"
     },
     {
@@ -20618,6 +21309,9 @@
       ],
       "answer": "C",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-23-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-23-1.png"
     },
     {
@@ -20644,6 +21338,9 @@
       ],
       "answer": "A",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-24-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-24-1.png"
     },
     {
@@ -20670,6 +21367,9 @@
       ],
       "answer": "CE",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-25-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-25-fallback.png"
     },
     {
@@ -20696,6 +21396,9 @@
       ],
       "answer": "B",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-26-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-26-1.png"
     },
     {
@@ -20722,6 +21425,10 @@
       ],
       "answer": "A",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-27-1.png",
+        "data/generated/booklet-images/2025/A/no-27-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-27-1.png"
     },
     {
@@ -20748,6 +21455,9 @@
       ],
       "answer": "D",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-28-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-28-1.png"
     },
     {
@@ -20822,6 +21532,9 @@
       ],
       "answer": "D",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-29-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-29-fallback.png"
     },
     {
@@ -20848,6 +21561,10 @@
       ],
       "answer": "E",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-30-1.png",
+        "data/generated/booklet-images/2025/A/no-30-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-30-1.png"
     },
     {
@@ -20898,6 +21615,9 @@
       ],
       "answer": "E",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-31-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-31-1.png"
     },
     {
@@ -20924,6 +21644,9 @@
       ],
       "answer": "AE",
       "bookletNo": 32,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-32-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-32-fallback.png"
     },
     {
@@ -20998,6 +21721,9 @@
       ],
       "answer": "BE",
       "bookletNo": 33,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-33-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-33-fallback.png"
     },
     {
@@ -21024,6 +21750,9 @@
       ],
       "answer": "A",
       "bookletNo": 34,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/A/no-34-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-34-1.png"
     },
     {
@@ -21242,6 +21971,9 @@
       ],
       "answer": "A",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/B/no-01-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/B/no-01-1.png"
     },
     {
@@ -21748,6 +22480,9 @@
       ],
       "answer": "E",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/B/no-02-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/B/no-02-fallback.png"
     },
     {
@@ -21979,7 +22714,7 @@
         "B": "水泡音",
         "C": "捻髪音",
         "D": "胸膜摩擦音",
-        "E": "呼吸音減弱 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "呼吸音減弱"
       },
       "optionOrder": [
         "A",
@@ -22027,7 +22762,7 @@
         "B": "関心期",
         "C": "準備期",
         "D": "実行期",
-        "E": "維持期 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "維持期"
       },
       "optionOrder": [
         "A",
@@ -22075,7 +22810,7 @@
         "B": "運動不足",
         "C": "家族歴",
         "D": "脂質異常症",
-        "E": "糖尿病 次の文を読み 、 45 、 46 の問いに答えよ。"
+        "E": "糖尿病"
       },
       "optionOrder": [
         "A",
@@ -22123,7 +22858,7 @@
         "B": "水様便",
         "C": "粘血便",
         "D": "灰白色便",
-        "E": "タール便 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "タール便"
       },
       "optionOrder": [
         "A",
@@ -22171,7 +22906,7 @@
         "B": "血糖降下薬",
         "C": "抗甲状腺薬",
         "D": "尿酸降下薬",
-        "E": "ベンゾジアゼピン系薬 次の文を読み 、 49 、 50 の問いに答えよ。"
+        "E": "ベンゾジアゼピン系薬"
       },
       "optionOrder": [
         "A",
@@ -22278,6 +23013,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-01-fallback.png"
     },
     {
@@ -23024,6 +23762,10 @@
       ],
       "answer": "BE",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-02-1.png",
+        "data/generated/booklet-images/2025/C/no-02-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-02-1.png"
     },
     {
@@ -23098,6 +23840,9 @@
       ],
       "answer": "D",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-03-1.png"
     },
     {
@@ -23196,6 +23941,9 @@
       ],
       "answer": "D",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-04-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-04-fallback.png"
     },
     {
@@ -23246,6 +23994,9 @@
       ],
       "answer": "A",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-05-fallback.png"
     },
     {
@@ -23416,6 +24167,9 @@
       ],
       "answer": "A",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-06-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-06-fallback.png"
     },
     {
@@ -23442,6 +24196,9 @@
       ],
       "answer": "C",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-07-1.png"
     },
     {
@@ -23588,6 +24345,9 @@
       ],
       "answer": "B",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-08-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-08-1.png"
     },
     {
@@ -23614,6 +24374,10 @@
       ],
       "answer": "E",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-09-1.png",
+        "data/generated/booklet-images/2025/C/no-09-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-09-1.png"
     },
     {
@@ -23623,13 +24387,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp250428-01.html",
       "section": "C",
       "number": 2,
-      "prompt": "日前に家族から顔色不良を指摘されため受診した。意識は清明。体温 36.6 ℃。 脈 拍 98/分、整。血 圧 138/80 mmHg。血 液 所 見：赤 血 球 174 万、Hb 5.4 g/dL、 Ht 16 %、網赤血球 1 %、白血球 1,800 （分葉核好中球 20 %、好酸球 1 %、単球 2 %、 リンパ球 77 %） 、血小板 8.2 万。貧血に対して濃厚赤血球輸血を行ったが、輸血開 始から 2 時間経過したところで呼吸困難を訴えた。意識は清明。体温 37.0 ℃。脈 拍 132/分、整。血圧 98/62 mmHg。呼吸数 18/分。SpO 90 % （room air） 。再度行 なった血液型検査では不適合を認めず、不規則抗体は陰性で交差適合試験〈クロス マッチ〉 で異常を認めなかった。 原因で考えられるのはどれか。 2 つ選べ 。",
+      "prompt": "日前に家族から顔色不良を指摘されため受診した。意識は清明。体温 36.6 ℃。 脈 拍 98/分、整。血 圧 138/80 mmHg。血 液 所 見：赤 血 球 174 万、Hb 5.4 g/dL、 Ht 16 %、網赤血球 1 %、白血球 1,800 （分葉核好中球 20 %、好酸球 1 %、単球 2 %、 リンパ球 77 %） 、血小板 8.2 万。貧血に対して濃厚赤血球輸血を行ったが、輸血開 始から 2 時間経過したところで呼吸困難を訴えた。意識は清明。体温 37.0 ℃。脈 拍 132/分、整。血圧 98/62 mmHg。呼吸数 18/分。SpO 90 % （room air） 。再度行 なった血液型検査では不適合を認めず、不規則抗体は陰性で交差適合試験〈クロス マッチ〉 で異常を認めなかった。 原因で考えられるのはどれか。 2 つ選べ 。 83 歳の男性。意識消失を主訴に救急車で搬入された。 現病歴 ： 15 年前から高血圧症で治療中。約 5 年前から家族に難聴を指摘されて いる。 3 か月前から労作や安静に無関係の動悸を自覚するようになり、通院中の診 療所で心室期外収縮を指摘された。本日、自宅で意識消失し倒れたことに家族が気 付き、救急車を要請した。意識は数秒で回復した。家族によると、搬入時の様子は いつもと変わらないという。 既往歴 ： 74 歳時に早期胃癌に対して内視鏡治療を施行。 生活歴 ： 喫 煙 は 20 歳 か ら 74 歳 ま で 20 本/日。飲 酒 は 焼 酎 の お 湯 割 り を 1 合/日。長男夫婦、孫 1 人と 4 人暮らし。 家族歴 ： 父親は 72 歳時に胃癌で死亡。母親は 78 歳時に心筋梗塞で死亡。 現 症 ： ベッドで臥位となっており、開眼している。難聴があるものの、大きな 声で話しかけると、本日の日付や現在いる場所、自分の名前と年齢を正確に答え、 医 師 が 診 察 し て い る こ と を 理 解 し て い る。身 長 172 cm、体 重 59 kg。体 温 35.6 ℃。心拍数 56/分、整。血圧 152/68 mmHg。呼吸数 16/分。心音と呼吸音と に異常を認めない。腹部に異常を認めない。下腿に浮腫を認めない。神経診察では 指示に従って四肢を動かすことができ、明らかな麻痺は認めない。",
       "options": {
         "A": "アナフィラキシー",
         "B": "間質性肺炎",
         "C": "へモクロマトーシス",
         "D": "輸血関連急性肺障害",
-        "E": "輸血後 GVHD 次の文を読み 、 59～61 の問いに答えよ。 83 歳の男性。意識消失を主訴に救急車で搬入された。 現病歴 ： 15 年前から高血圧症で治療中。約 5 年前から家族に難聴を指摘されて いる。 3 か月前から労作や安静に無関係の動悸を自覚するようになり、通院中の診 療所で心室期外収縮を指摘された。本日、自宅で意識消失し倒れたことに家族が気 付き、救急車を要請した。意識は数秒で回復した。家族によると、搬入時の様子は いつもと変わらないという。 既往歴 ： 74 歳時に早期胃癌に対して内視鏡治療を施行。 生活歴 ： 喫 煙 は 20 歳 か ら 74 歳 ま で 20 本/日。飲 酒 は 焼 酎 の お 湯 割 り を 1 合/日。長男夫婦、孫 1 人と 4 人暮らし。 家族歴 ： 父親は 72 歳時に胃癌で死亡。母親は 78 歳時に心筋梗塞で死亡。 現 症 ： ベッドで臥位となっており、開眼している。難聴があるものの、大きな 声で話しかけると、本日の日付や現在いる場所、自分の名前と年齢を正確に答え、 医 師 が 診 察 し て い る こ と を 理 解 し て い る。身 長 172 cm、体 重 59 kg。体 温 35.6 ℃。心拍数 56/分、整。血圧 152/68 mmHg。呼吸数 16/分。心音と呼吸音と に異常を認めない。腹部に異常を認めない。下腿に浮腫を認めない。神経診察では 指示に従って四肢を動かすことができ、明らかな麻痺は認めない。"
+        "E": "輸血後 GVHD"
       },
       "optionOrder": [
         "A",
@@ -23701,7 +24465,7 @@
         "B": "緊急ペーシング",
         "C": "リドカイン静注",
         "D": "アドレナリン静注",
-        "E": "カルディオバージョン 別 冊 No. 10 次の文を読み 、 62～64 の問いに答えよ。"
+        "E": "カルディオバージョン 別 冊 No. 10"
       },
       "optionOrder": [
         "A",
@@ -23712,6 +24476,9 @@
       ],
       "answer": "B",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-10-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-10-fallback.png"
     },
     {
@@ -23762,6 +24529,9 @@
       ],
       "answer": "E",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-11-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-11-1.png"
     },
     {
@@ -23777,7 +24547,7 @@
         "B": "解剖に使用した器具は全て廃棄する。",
         "C": "解剖を実施したことを警察に届け出る。",
         "D": "解剖に関わった医療従事者は予防抗菌薬を内服する。",
-        "E": "死亡診断書は病理解剖報告書が完成した後に発行する。 次の文を読み 、 65～67 の問いに答えよ。"
+        "E": "死亡診断書は病理解剖報告書が完成した後に発行する。"
       },
       "optionOrder": [
         "A",
@@ -23836,6 +24606,10 @@
       ],
       "answer": "D",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/C/no-13-1.png",
+        "data/generated/booklet-images/2025/C/no-13-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-13-1.png"
     },
     {
@@ -23851,7 +24625,7 @@
         "B": "β 遮断薬投与",
         "C": "気管挿管陽圧換気",
         "D": "胸腔ドレーン挿入",
-        "E": "非侵襲的陽圧換気 〈NPPV〉 次の文を読み 、 68～70 の問いに答えよ。"
+        "E": "非侵襲的陽圧換気 〈NPPV〉"
       },
       "optionOrder": [
         "A",
@@ -23917,13 +24691,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp250428-01.html",
       "section": "C",
       "number": 70,
-      "prompt": "診断に有用なのはどれか。",
+      "prompt": "診断に有用なのはどれか。 85 歳の女性。悪心を主訴に来院した。 現病歴 ： 3 日前から悪心があり、症状が悪化したため息子に付き添われて来院し た。自宅近くの診療所にて、10 年前から脂質異常症の治療で①スタチンを服用し ていた。また、同時期から便秘症のため②酸化マグネシウムを服用していた。息子 によると、最近は特に便が硬く③市販の下剤を追加で服用していたという。診療所 での④最後の血液検査は 1 年前である。70 歳過ぎから⑤ 「腎臓の数値が高め」 と言 われていたという。 既往歴 ： 75 歳時から脂質異常症と便秘のため自宅近くの診療所に通院している。 生活歴 ： 息子と 2 人暮らし。喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 父は 75 歳時に脳梗塞で死亡。母は 85 歳時に老衰で死亡。 現 症 ： 意識は清明であるが受け答えはやや緩慢である。身長 151 cm、体重",
       "options": {
         "A": "FDG-PET",
         "B": "頸椎単純 CT",
         "C": "頸部超音波検査",
         "D": "脳血管造影検査",
-        "E": "ドパミントランスポーターシンチグラフィ 次の文を読み 、 71～73 の問いに答えよ。 85 歳の女性。悪心を主訴に来院した。 現病歴 ： 3 日前から悪心があり、症状が悪化したため息子に付き添われて来院し た。自宅近くの診療所にて、10 年前から脂質異常症の治療で①スタチンを服用し ていた。また、同時期から便秘症のため②酸化マグネシウムを服用していた。息子 によると、最近は特に便が硬く③市販の下剤を追加で服用していたという。診療所 での④最後の血液検査は 1 年前である。70 歳過ぎから⑤ 「腎臓の数値が高め」 と言 われていたという。 既往歴 ： 75 歳時から脂質異常症と便秘のため自宅近くの診療所に通院している。 生活歴 ： 息子と 2 人暮らし。喫煙歴はない。飲酒は機会飲酒。 家族歴 ： 父は 75 歳時に脳梗塞で死亡。母は 85 歳時に老衰で死亡。 現 症 ： 意識は清明であるが受け答えはやや緩慢である。身長 151 cm、体重"
+        "E": "ドパミントランスポーターシンチグラフィ"
       },
       "optionOrder": [
         "A",
@@ -24054,6 +24828,9 @@
       ],
       "answer": "B",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-01-fallback.png"
     },
     {
@@ -24248,6 +25025,9 @@
       ],
       "answer": "D",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-02-1.png"
     },
     {
@@ -24274,6 +25054,9 @@
       ],
       "answer": "D",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-03-1.png"
     },
     {
@@ -24396,6 +25179,10 @@
       ],
       "answer": "A",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-04-1.png",
+        "data/generated/booklet-images/2025/D/no-04-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-04-1.png"
     },
     {
@@ -24422,6 +25209,9 @@
       ],
       "answer": "CD",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-05-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-05-fallback.png"
     },
     {
@@ -24448,6 +25238,10 @@
       ],
       "answer": "E",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-06-1.png",
+        "data/generated/booklet-images/2025/D/no-06-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-06-1.png"
     },
     {
@@ -24474,6 +25268,9 @@
       ],
       "answer": "B",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-07-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-07-1.png"
     },
     {
@@ -24524,6 +25321,10 @@
       ],
       "answer": "C",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-08-1.png",
+        "data/generated/booklet-images/2025/D/no-08-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-08-1.png"
     },
     {
@@ -24598,6 +25399,9 @@
       ],
       "answer": "D",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-09-1.png"
     },
     {
@@ -24720,6 +25524,9 @@
       ],
       "answer": "C",
       "bookletNo": 10,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-10-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-10-1.png"
     },
     {
@@ -24770,6 +25577,9 @@
       ],
       "answer": "E",
       "bookletNo": 11,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-11-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-11-1.png"
     },
     {
@@ -24796,6 +25606,9 @@
       ],
       "answer": "C",
       "bookletNo": 12,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-12-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-12-fallback.png"
     },
     {
@@ -24918,6 +25731,9 @@
       ],
       "answer": "C",
       "bookletNo": 13,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-13-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-13-1.png"
     },
     {
@@ -24944,6 +25760,9 @@
       ],
       "answer": "E",
       "bookletNo": 14,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-14-1.png"
     },
     {
@@ -24994,6 +25813,9 @@
       ],
       "answer": "B",
       "bookletNo": 15,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-15-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-15-1.png"
     },
     {
@@ -25020,6 +25842,9 @@
       ],
       "answer": "C",
       "bookletNo": 16,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-16-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-16-fallback.png"
     },
     {
@@ -25070,6 +25895,9 @@
       ],
       "answer": "E",
       "bookletNo": 17,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-17-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-17-1.png"
     },
     {
@@ -25168,6 +25996,9 @@
       ],
       "answer": "BCD",
       "bookletNo": 18,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-18-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-18-fallback.png"
     },
     {
@@ -25338,6 +26169,9 @@
       ],
       "answer": "C",
       "bookletNo": 19,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-19-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-19-fallback.png"
     },
     {
@@ -25388,6 +26222,9 @@
       ],
       "answer": "D",
       "bookletNo": 20,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-20-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-20-1.png"
     },
     {
@@ -25414,6 +26251,9 @@
       ],
       "answer": "D",
       "bookletNo": 21,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-21-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-21-1.png"
     },
     {
@@ -25464,6 +26304,9 @@
       ],
       "answer": "D",
       "bookletNo": 22,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-22-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-22-1.png"
     },
     {
@@ -25490,6 +26333,9 @@
       ],
       "answer": "C",
       "bookletNo": 23,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-23-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-23-1.png"
     },
     {
@@ -25564,6 +26410,9 @@
       ],
       "answer": "B",
       "bookletNo": 24,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-24-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-24-1.png"
     },
     {
@@ -25590,6 +26439,9 @@
       ],
       "answer": "E",
       "bookletNo": 25,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-14-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-14-1.png"
     },
     {
@@ -25664,6 +26516,9 @@
       ],
       "answer": "D",
       "bookletNo": 26,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-26-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-26-1.png"
     },
     {
@@ -25690,6 +26545,9 @@
       ],
       "answer": "D",
       "bookletNo": 27,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-27-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-27-1.png"
     },
     {
@@ -25716,6 +26574,9 @@
       ],
       "answer": "B",
       "bookletNo": 28,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-28-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-28-fallback.png"
     },
     {
@@ -25742,6 +26603,10 @@
       ],
       "answer": "BE",
       "bookletNo": 29,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-29-1.png",
+        "data/generated/booklet-images/2025/D/no-29-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-29-1.png"
     },
     {
@@ -25768,6 +26633,9 @@
       ],
       "answer": "B",
       "bookletNo": 30,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-30-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-30-1.png"
     },
     {
@@ -25818,6 +26686,10 @@
       ],
       "answer": "BC",
       "bookletNo": 31,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-31-1.png",
+        "data/generated/booklet-images/2025/D/no-31-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-31-1.png"
     },
     {
@@ -25844,6 +26716,9 @@
       ],
       "answer": "BC",
       "bookletNo": 32,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/D/no-32-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-32-1.png"
     },
     {
@@ -26182,6 +27057,9 @@
       ],
       "answer": "E",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/E/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-01-fallback.png"
     },
     {
@@ -26448,6 +27326,9 @@
       ],
       "answer": "A",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/E/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-02-1.png"
     },
     {
@@ -26474,6 +27355,9 @@
       ],
       "answer": "E",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/E/no-03-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-03-1.png"
     },
     {
@@ -26620,6 +27504,9 @@
       ],
       "answer": "B",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/E/no-04-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-04-1.png"
     },
     {
@@ -26814,6 +27701,10 @@
       ],
       "answer": "C",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/E/no-05-1.png",
+        "data/generated/booklet-images/2025/E/no-05-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-05-1.png"
     },
     {
@@ -26853,7 +27744,7 @@
         "B": "②",
         "C": "③",
         "D": "④",
-        "E": "⑤ DKIX01EH.indd DKIX01EH.indd 25 25 2024/12/18 2024/12/18 19:36:36 19:36:36 次の文を読み 、 41 、 42 の問いに答えよ。"
+        "E": "⑤ DKIX01EH.indd DKIX01EH.indd 25 25 2024/12/18 2024/12/18 19:36:36 19:36:36"
       },
       "optionOrder": [
         "A",
@@ -26901,7 +27792,7 @@
         "B": "医療事故調査制度を利用する。",
         "C": "医療安全支援センターを利用する。",
         "D": "使用した造影剤の製薬会社に報告する。",
-        "E": "患者の診療録上の所定の位置に有害事象を記録する。 DKIX01EH.indd DKIX01EH.indd 27 27 2024/12/18 2024/12/18 19:36:36 19:36:36 次の文を読み 、 43 、 44 の問いに答えよ。"
+        "E": "患者の診療録上の所定の位置に有害事象を記録する。 DKIX01EH.indd DKIX01EH.indd 27 27 2024/12/18 2024/12/18 19:36:36 19:36:36"
       },
       "optionOrder": [
         "A",
@@ -26949,7 +27840,7 @@
         "B": "虫垂炎",
         "C": "胆石症",
         "D": "脊椎圧迫骨折",
-        "E": "悪性リンパ腫 DKIX01EH.indd DKIX01EH.indd 29 29 2024/12/18 2024/12/18 19:36:36 19:36:36 次の文を読み 、 45 、 46 の問いに答えよ。"
+        "E": "悪性リンパ腫 DKIX01EH.indd DKIX01EH.indd 29 29 2024/12/18 2024/12/18 19:36:36 19:36:36"
       },
       "optionOrder": [
         "A",
@@ -26997,7 +27888,7 @@
         "B": "下 血",
         "C": "波 動",
         "D": "金属音",
-        "E": "反跳痛 DKIX01EH.indd DKIX01EH.indd 31 31 2024/12/18 2024/12/18 19:36:36 19:36:36 次の文を読み 、 47 、 48 の問いに答えよ。"
+        "E": "反跳痛 DKIX01EH.indd DKIX01EH.indd 31 31 2024/12/18 2024/12/18 19:36:36 19:36:36"
       },
       "optionOrder": [
         "A",
@@ -27045,7 +27936,7 @@
         "B": "ジアゼパム",
         "C": "フロセミド",
         "D": "アドレナリン",
-        "E": "グルココルチコイド DKIX01EH.indd DKIX01EH.indd 33 33 2024/12/18 2024/12/18 19:36:36 19:36:36 次の文を読み 、 49 、 50 の問いに答えよ。"
+        "E": "グルココルチコイド DKIX01EH.indd DKIX01EH.indd 33 33 2024/12/18 2024/12/18 19:36:36 19:36:36"
       },
       "optionOrder": [
         "A",
@@ -27968,6 +28859,9 @@
       ],
       "answer": "D",
       "bookletNo": 1,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-01-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-01-fallback.png"
     },
     {
@@ -28018,6 +28912,9 @@
       ],
       "answer": "A",
       "bookletNo": 2,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-02-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-02-1.png"
     },
     {
@@ -28092,6 +28989,9 @@
       ],
       "answer": "C",
       "bookletNo": 3,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-03-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-03-fallback.png"
     },
     {
@@ -28310,6 +29210,10 @@
       ],
       "answer": "C",
       "bookletNo": 4,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-04-1.png",
+        "data/generated/booklet-images/2025/F/no-04-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-04-1.png"
     },
     {
@@ -28408,6 +29312,10 @@
       ],
       "answer": "B",
       "bookletNo": 5,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-05-1.png",
+        "data/generated/booklet-images/2025/F/no-05-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-05-1.png"
     },
     {
@@ -28513,13 +29421,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp250428-01.html",
       "section": "F",
       "number": 59,
-      "prompt": "56 歳の男性。左下腿の挫創を主訴に来院した。 5 日前に発生した地震で、倒れ た家具が接触して受傷したが治療できずそのままにしていた。 2 日前から創部の痛 みが悪化し膿性浸出液を認めるようになった。来院時の創部の写真 （ 別冊 No. 6 ） を 別に示す。 創部を消毒する前に行うのはどれか。 2 つ選べ 。",
+      "prompt": "56 歳の男性。左下腿の挫創を主訴に来院した。 5 日前に発生した地震で、倒れ た家具が接触して受傷したが治療できずそのままにしていた。 2 日前から創部の痛 みが悪化し膿性浸出液を認めるようになった。来院時の創部の写真 （ 別冊 No. 6 ） を 別に示す。 創部を消毒する前に行うのはどれか。 2 つ選べ 。 76 歳の男性。強いふらつきを主訴に救急車で搬入された。 現病歴 ： 3 か月前から倦怠感やふらつきが目立ち、寒がるようになった。動作緩 慢、便秘および経口摂取減少も出現したが加齢によるものと本人が思い様子をみて いた。本日、倦怠感とふらつきが増強したため妻が救急車を要請した。 既往歴 ： 1 年 4 か月前に中咽頭癌に対し化学放射線療法が施行され、 6 か月ごと に定期通院中。 生活歴 ： 70 歳まで会社役員。妻と 2 人暮らし。喫煙歴はない。飲酒は日本酒",
       "options": {
         "A": "抗菌薬外用",
         "B": "洗 浄",
         "C": "創部培養",
         "D": "ドレーン留置",
-        "E": "縫 合 別 冊 No. 6 次の文を読み 、 60～62 の問いに答えよ。 76 歳の男性。強いふらつきを主訴に救急車で搬入された。 現病歴 ： 3 か月前から倦怠感やふらつきが目立ち、寒がるようになった。動作緩 慢、便秘および経口摂取減少も出現したが加齢によるものと本人が思い様子をみて いた。本日、倦怠感とふらつきが増強したため妻が救急車を要請した。 既往歴 ： 1 年 4 か月前に中咽頭癌に対し化学放射線療法が施行され、 6 か月ごと に定期通院中。 生活歴 ： 70 歳まで会社役員。妻と 2 人暮らし。喫煙歴はない。飲酒は日本酒"
+        "E": "縫 合 別 冊 No. 6"
       },
       "optionOrder": [
         "A",
@@ -28530,6 +29438,9 @@
       ],
       "answer": "BC",
       "bookletNo": 6,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-06-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-06-1.png"
     },
     {
@@ -28593,7 +29504,7 @@
         "B": "ヨウ素含有食品摂取",
         "C": "甲状腺ホルモン薬内服",
         "D": "脂質異常症治療薬内服",
-        "E": "塩化カリウム液急速静注 次の文を読み 、 63～65 の問いに答えよ。"
+        "E": "塩化カリウム液急速静注"
       },
       "optionOrder": [
         "A",
@@ -28665,7 +29576,7 @@
         "B": "クリッピング",
         "C": "酸分泌抑制薬投与",
         "D": "内視鏡的硬化療法",
-        "E": "内視鏡的粘膜下層剝離術 〈ESD〉 別 冊 No. 7 Ａ 、 Ｂ 次の文を読み 、 66～68 の問いに答えよ。"
+        "E": "内視鏡的粘膜下層剝離術 〈ESD〉 別 冊 No. 7 Ａ 、 Ｂ"
       },
       "optionOrder": [
         "A",
@@ -28676,6 +29587,10 @@
       ],
       "answer": "C",
       "bookletNo": 7,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-07-1.png",
+        "data/generated/booklet-images/2025/F/no-07-2.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-07-1.png"
     },
     {
@@ -28739,7 +29654,7 @@
         "B": "「ペニシリン系抗菌薬で治療します」",
         "C": "「家族の方は抗菌薬の予防内服が必要です」",
         "D": "「治療終了後も定期的に血液検査を行います」",
-        "E": "「トイレの共用で家族に感染することはありません」 次の文を読み 、 69～71 の問いに答えよ。"
+        "E": "「トイレの共用で家族に感染することはありません」"
       },
       "optionOrder": [
         "A",
@@ -28798,6 +29713,9 @@
       ],
       "answer": "B",
       "bookletNo": 8,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-08-fallback.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-08-fallback.png"
     },
     {
@@ -28807,13 +29725,13 @@
       "sourcePage": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp250428-01.html",
       "section": "F",
       "number": 60,
-      "prompt": "mmHg 以上の維持が困難で、心拍数も 120/分を超えて不穏状態となった。 次に行う治療で適切なのはどれか。",
+      "prompt": "mmHg 以上の維持が困難で、心拍数も 120/分を超えて不穏状態となった。 次に行う治療で適切なのはどれか。 82 歳の女性。発熱と呼吸困難を主訴に来院した。 現病歴 ： 3 日前から発熱と乾性咳嗽が出現、 2 日前から労作時の呼吸困難も出現 したため受診した。同居している家族を含め、周囲で上気道炎症状のある人はいな い。 既往歴 ： 2 年前から特発性間質性肺炎と診断され、 3 か月前の急性増悪の際にス テロイドパルス療法が行われ、その後漸減しながら現在プレドニゾロン 25 mg/日 と抗線維化薬を内服している。その他の薬は副作用のため中断している。 生活歴 ： 喫煙歴はない。自宅で夫と息子夫婦の 4 人暮らし。ADL は自立。毎日 近所を散歩している。室内で犬を 1 匹飼っている。 3 か月前にインフルエンザワク チンと新型コロナウイルスワクチンを接種している。 家族歴 ： 父が 82 歳時に肺癌で死亡。 現 症 ： 意識は清明。身長 155 cm、体重 60 kg。体温 37.8 ℃。脈拍 84/分、整。 血 圧 130/76 mmHg。呼 吸 数 28/分。SpO 88 % （room air） 。心 音 に 異 常 は 認 め な い。呼吸音は両側下肺背側に fine crackles を聴取する。腹部は平坦、軟で、肝・ 脾を触知しない。下腿に浮腫を認めない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 3 ＋ 、ケトン体 2 ＋ 、潜血 1 ＋ 。血液所見：赤 血球 412 万、Hb 12.3 g/dL、Ht 38 %、白血球 11,400 （分葉核好中球 89 %、単球 1 %、リンパ球 10 %） 、血小板 24 万、D ダイマー 1.0 μ g/mL （基準 1.0 以下） 。血液 生化学所見：総蛋白 5.1 g/dL、アルブミン 3.0 g/dL、総ビリルビン 0.7 mg/dL、 AST 25 U/L、 ALT 21 U/L、 LD 549 U/L （基 準 124～222） 、 ALP 39 U/L （基 準 38～113） 、 γ -GT 30 U/L （基 準 9 ～32） 、 尿 素 窒 素 17 mg/dL、 ク レ ア チ ニ ン 0.5 mg/dL、 血 糖 144 mg/dL、 HbA1c 6.1 % （基 準 4.9～6.0） 、 Na 135 mEq/L、 K 3.9 mEq/L、Cl 94 mEq/L、KL-6 4,482 U/mL （基 準 500 未 満） 。免 疫 血 清 学 所 見：CRP 4.7 mg/dL、 β -D-グルカン 210 pg/mL （基準 10 以下） 。インフルエンザ ウイルス迅速抗原検査陰性、新型コロナウイルス 〈SARS-CoV-2〉 抗原定性検査陰 性、サイトメガロウイルス抗原陰性。胸部エックス線写真 （ 別冊 No. 9Ａ ） と胸部単 純 CT （ 別冊 No. 9Ｂ ） とを別に示す。 別 冊 No. 9 Ａ 、 Ｂ",
       "options": {
         "A": "植込み型除細動器",
         "B": "永久ペースメーカ",
         "C": "補助人工心臓 〈VAD〉",
         "D": "大動脈内バルーンパンピング 〈IABP〉",
-        "E": "ECMO 〈Extracorporeal membrane oxygenation〉 次の文を読み 、 72～74 の問いに答えよ。 82 歳の女性。発熱と呼吸困難を主訴に来院した。 現病歴 ： 3 日前から発熱と乾性咳嗽が出現、 2 日前から労作時の呼吸困難も出現 したため受診した。同居している家族を含め、周囲で上気道炎症状のある人はいな い。 既往歴 ： 2 年前から特発性間質性肺炎と診断され、 3 か月前の急性増悪の際にス テロイドパルス療法が行われ、その後漸減しながら現在プレドニゾロン 25 mg/日 と抗線維化薬を内服している。その他の薬は副作用のため中断している。 生活歴 ： 喫煙歴はない。自宅で夫と息子夫婦の 4 人暮らし。ADL は自立。毎日 近所を散歩している。室内で犬を 1 匹飼っている。 3 か月前にインフルエンザワク チンと新型コロナウイルスワクチンを接種している。 家族歴 ： 父が 82 歳時に肺癌で死亡。 現 症 ： 意識は清明。身長 155 cm、体重 60 kg。体温 37.8 ℃。脈拍 84/分、整。 血 圧 130/76 mmHg。呼 吸 数 28/分。SpO 88 % （room air） 。心 音 に 異 常 は 認 め な い。呼吸音は両側下肺背側に fine crackles を聴取する。腹部は平坦、軟で、肝・ 脾を触知しない。下腿に浮腫を認めない。 検査所見 ： 尿所見：蛋白 （ － ） 、糖 3 ＋ 、ケトン体 2 ＋ 、潜血 1 ＋ 。血液所見：赤 血球 412 万、Hb 12.3 g/dL、Ht 38 %、白血球 11,400 （分葉核好中球 89 %、単球 1 %、リンパ球 10 %） 、血小板 24 万、D ダイマー 1.0 μ g/mL （基準 1.0 以下） 。血液 生化学所見：総蛋白 5.1 g/dL、アルブミン 3.0 g/dL、総ビリルビン 0.7 mg/dL、 AST 25 U/L、 ALT 21 U/L、 LD 549 U/L （基 準 124～222） 、 ALP 39 U/L （基 準 38～113） 、 γ -GT 30 U/L （基 準 9 ～32） 、 尿 素 窒 素 17 mg/dL、 ク レ ア チ ニ ン 0.5 mg/dL、 血 糖 144 mg/dL、 HbA1c 6.1 % （基 準 4.9～6.0） 、 Na 135 mEq/L、 K 3.9 mEq/L、Cl 94 mEq/L、KL-6 4,482 U/mL （基 準 500 未 満） 。免 疫 血 清 学 所 見：CRP 4.7 mg/dL、 β -D-グルカン 210 pg/mL （基準 10 以下） 。インフルエンザ ウイルス迅速抗原検査陰性、新型コロナウイルス 〈SARS-CoV-2〉 抗原定性検査陰 性、サイトメガロウイルス抗原陰性。胸部エックス線写真 （ 別冊 No. 9Ａ ） と胸部単 純 CT （ 別冊 No. 9Ｂ ） とを別に示す。 別 冊 No. 9 Ａ 、 Ｂ"
+        "E": "ECMO 〈Extracorporeal membrane oxygenation〉"
       },
       "optionOrder": [
         "A",
@@ -28824,6 +29742,9 @@
       ],
       "answer": "DE",
       "bookletNo": 9,
+      "bookletImagePaths": [
+        "data/generated/booklet-images/2025/F/no-09-1.png"
+      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-09-1.png"
     },
     {
