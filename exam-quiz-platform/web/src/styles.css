@@ -34,7 +34,8 @@ body {
 .head button { border: 0; border-radius: 8px; padding: .5rem .7rem; background: #e9f1f1; color: #1f4a4c; font-weight: 700; cursor: pointer; }
 h2 { margin: .8rem 0 1rem; line-height: 1.7; font-size: 1.1rem; }
 .figure { margin: 0 0 1rem; border: 1px solid #d7e2ec; border-radius: 12px; padding: .6rem; background: #f5f9ff; }
-.figure img { width: 100%; display: block; border-radius: 8px; height: auto; }
+.figure #images { display: grid; gap: .6rem; }
+.figure img { width: 100%; display: block; border-radius: 8px; height: auto; background: #fff; }
 .figure figcaption { margin-top: .4rem; color: var(--muted); font-size: .85rem; }
 .options { display: grid; gap: .55rem; }
 .option { display: grid; grid-template-columns: auto 1fr; gap: .6rem; border: 1px solid #ddd4c3; border-radius: 10px; padding: .7rem; background: #fff; }

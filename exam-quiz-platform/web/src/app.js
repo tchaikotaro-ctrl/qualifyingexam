@@ -8,7 +8,7 @@ const els = {
   qid: document.querySelector('#qid'),
   prompt: document.querySelector('#prompt'),
   figure: document.querySelector('#figure'),
-  image: document.querySelector('#image'),
+  images: document.querySelector('#images'),
   caption: document.querySelector('#caption'),
   options: document.querySelector('#options'),
   judge: document.querySelector('#judge'),
@@ -42,12 +42,26 @@ function renderQuestion(question) {
   els.qid.textContent = `${question.sourceExam} / ${question.id}`;
   els.prompt.textContent = question.prompt;
 
-  if (question.imagePath) {
-    els.image.src = `./${question.imagePath}`;
-    els.caption.textContent = question.bookletNo ? `別冊 No.${question.bookletNo}` : '関連画像';
+  const imagePaths = Array.isArray(question.imagePaths)
+    ? question.imagePaths
+    : question.imagePath
+      ? [question.imagePath]
+      : [];
+
+  if (imagePaths.length > 0) {
+    els.images.innerHTML = '';
+    for (const imagePath of imagePaths) {
+      const img = document.createElement('img');
+      img.src = `./${imagePath}`;
+      img.alt = '問題画像';
+      img.loading = 'lazy';
+      els.images.appendChild(img);
+    }
+    const base = question.bookletNo ? `別冊 No.${question.bookletNo}` : '関連画像';
+    els.caption.textContent = imagePaths.length > 1 ? `${base}（${imagePaths.length}枚）` : base;
     els.figure.hidden = false;
   } else {
-    els.image.removeAttribute('src');
+    els.images.innerHTML = '';
     els.caption.textContent = '';
     els.figure.hidden = true;
   }

@@ -200,50 +200,189 @@ function detectBookletNo(question) {
   return n;
 }
 
-async function renderBookletPage(pdfDoc, pageNumber, outPath) {
-  const page = await pdfDoc.getPage(pageNumber);
-  const viewport = page.getViewport({ scale: 1.3 });
-  const canvas = createCanvas(Math.ceil(viewport.width), Math.ceil(viewport.height));
-  const context = canvas.getContext('2d');
+function extractNoMarkers(textItems) {
+  const items = textItems
+    .map((item) => ({
+      s: String(item.str || '').trim(),
+      x: item.transform[4],
+      y: item.transform[5]
+    }))
+    .filter((i) => i.s);
 
-  await page.render({
-    canvasContext: context,
-    viewport
-  }).promise;
+  const numbers = items.filter((i) => /^\d+$/.test(i.s));
+  const markers = [];
 
-  await fs.writeFile(outPath, canvas.toBuffer('image/png'));
+  for (const it of items) {
+    if (it.s !== 'No.') continue;
+
+    let best = null;
+    let bestScore = Number.POSITIVE_INFINITY;
+    for (const num of numbers) {
+      const dx = num.x - it.x;
+      const dy = Math.abs(num.y - it.y);
+      if (dx < -2 || dx > 140 || dy > 28) continue;
+      const score = dy * 3 + dx;
+      if (score < bestScore) {
+        bestScore = score;
+        best = num;
+      }
+    }
+
+    if (!best) continue;
+    const no = Number(best.s);
+    if (!Number.isInteger(no) || no <= 0 || no >= 100) continue;
+
+    let questionNo = null;
+    let qToken = null;
+    for (const token of items) {
+      if (token.s !== '問題') continue;
+      const dx = token.x - it.x;
+      const dy = Math.abs(token.y - it.y);
+      if (dx < 0 || dx > 260 || dy > 24) continue;
+      if (!qToken || token.x < qToken.x) qToken = token;
+    }
+    if (qToken) {
+      let qNumToken = null;
+      for (const token of numbers) {
+        const dx = token.x - qToken.x;
+        const dy = Math.abs(token.y - qToken.y);
+        if (dx < 0 || dx > 120 || dy > 24) continue;
+        if (!qNumToken || token.x < qNumToken.x) qNumToken = token;
+      }
+      if (qNumToken) {
+        const n = Number(qNumToken.s);
+        if (Number.isInteger(n) && n >= 1 && n <= 75) questionNo = n;
+      }
+    }
+
+    const duplicated = markers.some((m) => m.no === no && Math.abs(m.x - it.x) < 8 && Math.abs(m.y - it.y) < 4);
+    if (!duplicated) {
+      markers.push({ no, x: it.x, y: it.y, questionNo });
+    }
+  }
+
+  return markers.sort((a, b) => b.y - a.y || a.x - b.x);
+}
+
+function cropPanel(fullCanvas, sx, sy, sw, sh) {
+  const w = Math.max(1, Math.floor(sw));
+  const h = Math.max(1, Math.floor(sh));
+  const canvas = createCanvas(w, h);
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(fullCanvas, Math.floor(sx), Math.floor(sy), w, h, 0, 0, w, h);
+  return canvas;
 }
 
 async function extractBookletImages(examYear, section, bookletPdfPath, neededNos) {
   const imageMap = new Map();
-  if (neededNos.size === 0) return imageMap;
+  const questionImageMap = new Map();
+  if (neededNos.size === 0) return { imageMap, questionImageMap };
 
   const pdfDoc = await loadPdfDocument(bookletPdfPath);
   const sectionDir = path.join(bookletImageRootDir, String(examYear), section);
   await ensureDir(sectionDir);
 
-  const sortedNos = [...neededNos].sort((a, b) => a - b);
+  const scale = 1.7;
+  const sideMargin = 20;
+  const topPad = 18;
+  const bottomPad = 10;
 
-  for (const no of sortedNos) {
+  const markersByPage = new Map();
+  const pageCountsByNo = new Map();
+
+  for (let pageNo = 1; pageNo <= pdfDoc.numPages; pageNo += 1) {
+    const page = await pdfDoc.getPage(pageNo);
+    const textContent = await page.getTextContent();
+    const markers = extractNoMarkers(textContent.items).filter((m) => neededNos.has(m.no));
+    if (markers.length === 0) continue;
+
+    markersByPage.set(pageNo, markers);
+    for (const marker of markers) {
+      if (!pageCountsByNo.has(marker.no)) pageCountsByNo.set(marker.no, new Map());
+      const counter = pageCountsByNo.get(marker.no);
+      counter.set(pageNo, (counter.get(pageNo) || 0) + 1);
+    }
+  }
+
+  const selectedPageByNo = new Map();
+  for (const [no, counts] of pageCountsByNo.entries()) {
+    const best = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0])[0];
+    if (best) selectedPageByNo.set(no, best[0]);
+  }
+
+  for (const [pageNo, allMarkers] of markersByPage.entries()) {
+    const targetMarkers = allMarkers
+      .filter((m) => selectedPageByNo.get(m.no) === pageNo)
+      .sort((a, b) => b.y - a.y || a.x - b.x);
+    if (targetMarkers.length === 0) continue;
+
+    const page = await pdfDoc.getPage(pageNo);
+    const viewport = page.getViewport({ scale });
+    const fullCanvas = createCanvas(Math.ceil(viewport.width), Math.ceil(viewport.height));
+    const fullCtx = fullCanvas.getContext('2d');
+
+    await page.render({ canvasContext: fullCtx, viewport }).promise;
+
+    const pageHeightPt = viewport.height / scale;
+    const pageWidthPx = fullCanvas.width;
+    const pageHeightPx = fullCanvas.height;
+
+    for (let i = 0; i < targetMarkers.length; i += 1) {
+      const marker = targetMarkers[i];
+      const upperPt = i === 0 ? pageHeightPt - 6 : (targetMarkers[i - 1].y + marker.y) / 2;
+      const lowerPt = i === targetMarkers.length - 1 ? 8 : (marker.y + targetMarkers[i + 1].y) / 2;
+
+      const cropTopPx = Math.max(0, Math.floor((pageHeightPt - upperPt - topPad) * scale));
+      const cropBottomPx = Math.min(pageHeightPx, Math.ceil((pageHeightPt - lowerPt + bottomPad) * scale));
+      const cropLeftPx = sideMargin;
+      const cropWidthPx = Math.max(1, pageWidthPx - sideMargin * 2);
+      const cropHeightPx = Math.max(1, cropBottomPx - cropTopPx);
+
+      const subCanvas = cropPanel(fullCanvas, cropLeftPx, cropTopPx, cropWidthPx, cropHeightPx);
+
+      const existing = imageMap.get(marker.no) || [];
+      const idx = existing.length + 1;
+      const fileName = `no-${String(marker.no).padStart(2, '0')}-${idx}.png`;
+      const absPath = path.join(sectionDir, fileName);
+      const relPath = path
+        .join('data', 'generated', 'booklet-images', String(examYear), section, fileName)
+        .split(path.sep)
+        .join('/');
+
+      await fs.writeFile(absPath, subCanvas.toBuffer('image/png'));
+      existing.push(relPath);
+      imageMap.set(marker.no, existing);
+
+      if (Number.isInteger(marker.questionNo) && marker.questionNo >= 1 && marker.questionNo <= 75) {
+        const byQuestion = questionImageMap.get(marker.questionNo) || [];
+        byQuestion.push(relPath);
+        questionImageMap.set(marker.questionNo, byQuestion);
+      }
+    }
+  }
+
+  // Fallback: when marker detection fails, use booklet page number as No.
+  for (const no of neededNos) {
+    if (imageMap.has(no)) continue;
     if (no > pdfDoc.numPages) continue;
 
-    const fileName = `no-${String(no).padStart(2, '0')}.png`;
+    const page = await pdfDoc.getPage(no);
+    const viewport = page.getViewport({ scale });
+    const canvas = createCanvas(Math.ceil(viewport.width), Math.ceil(viewport.height));
+    const context = canvas.getContext('2d');
+    await page.render({ canvasContext: context, viewport }).promise;
+
+    const fileName = `no-${String(no).padStart(2, '0')}-fallback.png`;
     const absPath = path.join(sectionDir, fileName);
     const relPath = path
       .join('data', 'generated', 'booklet-images', String(examYear), section, fileName)
       .split(path.sep)
       .join('/');
-
-    try {
-      await fs.access(absPath);
-    } catch {
-      await renderBookletPage(pdfDoc, no, absPath);
-    }
-
-    imageMap.set(no, relPath);
+    await fs.writeFile(absPath, canvas.toBuffer('image/png'));
+    imageMap.set(no, [relPath]);
   }
 
-  return imageMap;
+  return { imageMap, questionImageMap };
 }
 
 async function main() {
@@ -285,7 +424,6 @@ async function main() {
         const answer = answerMap.get(q.id);
         if (!answer) continue;
 
-        // keep A-E based questions only; skip numeric fill-in answers.
         if (!/^[A-E]+$/.test(answer)) continue;
 
         q.answer = answer.split('').sort().join('');
@@ -294,7 +432,6 @@ async function main() {
           q.options[key] = normalizeText(q.options[key]);
         }
 
-        // ensure all options exist for UI consistency.
         if (!q.optionOrder.every((k) => typeof q.options[k] === 'string' && q.options[k].length > 0)) {
           continue;
         }
@@ -317,11 +454,20 @@ async function main() {
     }
 
     for (const [sectionId, bucket] of sectionBuckets.entries()) {
-      const imageMap = await extractBookletImages(exam.year, sectionId, bucket.bookletPath, bucket.neededNos);
+      const { imageMap, questionImageMap } = await extractBookletImages(
+        exam.year,
+        sectionId,
+        bucket.bookletPath,
+        bucket.neededNos
+      );
 
       for (const q of bucket.questions) {
-        if (q.bookletNo && imageMap.has(q.bookletNo)) {
-          q.bookletImagePath = imageMap.get(q.bookletNo);
+        if (q.bookletNo && Number.isInteger(q.number) && questionImageMap.has(q.number)) {
+          q.bookletImagePaths = questionImageMap.get(q.number);
+          q.bookletImagePath = q.bookletImagePaths[0];
+        } else if (q.bookletNo && imageMap.has(q.bookletNo)) {
+          q.bookletImagePaths = imageMap.get(q.bookletNo);
+          q.bookletImagePath = q.bookletImagePaths[0];
         }
         allQuestions.push(q);
       }

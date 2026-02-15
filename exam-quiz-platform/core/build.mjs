@@ -53,7 +53,9 @@ async function main() {
     generatedAt: new Date().toISOString(),
     sourcePages: dataset.sourcePages,
     totalQuestions: dataset.questions.length,
-    questionsWithImage: dataset.questions.filter((q) => q.imagePath).length,
+    questionsWithImage: dataset.questions.filter(
+      (q) => q.imagePath || (Array.isArray(q.imagePaths) && q.imagePaths.length > 0)
+    ).length,
     questions: dataset.questions
   };
 

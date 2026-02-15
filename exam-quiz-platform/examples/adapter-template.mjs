@@ -24,7 +24,8 @@ export async function build(ctx) {
         },
         answer: 'B',
         bookletNo: undefined,
-        imagePath: undefined
+        imagePath: undefined,
+        imagePaths: undefined
       }
     ]
   };

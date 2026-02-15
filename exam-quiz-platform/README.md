@@ -59,6 +59,7 @@ node core/build.mjs --adapter adapters/<your-exam>.mjs --outDir web/output --raw
 - `answer: string`（例: `A`, `BE`）
 - `bookletNo?: number`
 - `imagePath?: string`（`web/` からの相対パス。例: `output/assets/2026/no-01.png`）
+- `imagePaths?: string[]`（同一 No に複数画像がある場合）
 
 ## 同梱サンプルアダプタ
 

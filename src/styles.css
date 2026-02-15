@@ -115,11 +115,17 @@ h2 {
   border: 1px solid #dce6f7;
 }
 
+.booklet #booklet-images {
+  display: grid;
+  gap: 0.6rem;
+}
+
 .booklet img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 8px;
+  background: #fff;
 }
 
 .booklet figcaption {

@@ -7,7 +7,7 @@ const els = {
   qid: document.querySelector('#question-id'),
   qtext: document.querySelector('#question-text'),
   bookletFigure: document.querySelector('#booklet-figure'),
-  bookletImage: document.querySelector('#booklet-image'),
+  bookletImages: document.querySelector('#booklet-images'),
   bookletCaption: document.querySelector('#booklet-caption'),
   form: document.querySelector('#answer-form'),
   judge: document.querySelector('#judge-btn'),
@@ -35,12 +35,27 @@ function renderQuestion(question) {
   els.qid.textContent = `${question.examLabel} / ${question.id}`;
   els.qtext.textContent = question.prompt;
 
-  if (question.bookletImagePath) {
-    els.bookletImage.src = `./${question.bookletImagePath}`;
-    els.bookletCaption.textContent = `別冊 No.${question.bookletNo}`;
+  const imagePaths = Array.isArray(question.bookletImagePaths)
+    ? question.bookletImagePaths
+    : question.bookletImagePath
+      ? [question.bookletImagePath]
+      : [];
+
+  if (imagePaths.length > 0) {
+    els.bookletImages.innerHTML = '';
+    for (const p of imagePaths) {
+      const img = document.createElement('img');
+      img.src = `./${p}`;
+      img.alt = '別冊画像';
+      img.loading = 'lazy';
+      els.bookletImages.appendChild(img);
+    }
+    els.bookletCaption.textContent = question.bookletNo
+      ? `別冊 No.${question.bookletNo}${imagePaths.length > 1 ? `（${imagePaths.length}枚）` : ''}`
+      : `別冊画像${imagePaths.length > 1 ? `（${imagePaths.length}枚）` : ''}`;
     els.bookletFigure.hidden = false;
   } else {
-    els.bookletImage.removeAttribute('src');
+    els.bookletImages.innerHTML = '';
     els.bookletCaption.textContent = '';
     els.bookletFigure.hidden = true;
   }
