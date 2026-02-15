@@ -435,8 +435,7 @@ export async function build(ctx) {
 
         const bookletNo = detectBookletNo(q);
         if (bookletNo) {
-          q.bookletNo = bookletNo;
-          neededNos.add(bookletNo);
+          continue;
         }
 
         filtered.push(q);

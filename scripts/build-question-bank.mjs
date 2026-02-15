@@ -478,8 +478,7 @@ async function main() {
 
         const bookletNo = detectBookletNo(q);
         if (bookletNo) {
-          q.bookletNo = bookletNo;
-          neededNos.add(bookletNo);
+          continue;
         }
 
         questions.push(q);
