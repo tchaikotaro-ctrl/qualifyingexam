@@ -17,7 +17,7 @@ npm run build:data
 - 生成物: `data/generated/questions.json`
 - 生成物（別冊画像）: `data/generated/booklet-images/**/*.png`
 - A-Eの選択肢で解答できる問題のみ収録（数値入力問題は除外）
-- 問題文に「別冊 No.X」があるものは、対応する別冊ページ画像を自動で紐付け
+- 問題文に「別冊 No.X」があるものは、対応する別冊画像を自動で紐付け（複数画像対応）
 
 ## 起動
 

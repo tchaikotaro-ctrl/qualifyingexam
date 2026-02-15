@@ -8,6 +8,7 @@
  * @property {string} answer
  * @property {number | undefined} bookletNo
  * @property {string | undefined} imagePath
+ * @property {string[] | undefined} imagePaths
  */
 
 /**

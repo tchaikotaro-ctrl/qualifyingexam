@@ -125,6 +125,12 @@ function parseQuestions(lines, exam, section) {
       }
 
       const questionNumber = Number(questionMatch[1]);
+      const firstPrompt = stripNextPassageLeadIn(questionMatch[2]);
+      if (!firstPrompt) {
+        current = null;
+        currentOption = null;
+        continue;
+      }
       current = {
         id: `${section}${String(questionNumber).padStart(3, '0')}`,
         examLabel: exam.label,
@@ -132,7 +138,7 @@ function parseQuestions(lines, exam, section) {
         sourcePage: exam.sourcePage,
         section,
         number: questionNumber,
-        prompt: questionMatch[2],
+        prompt: firstPrompt,
         options: {},
         optionOrder: ['A', 'B', 'C', 'D', 'E']
       };
@@ -151,15 +157,27 @@ function parseQuestions(lines, exam, section) {
         .replace('ｄ', 'D')
         .replace('ｅ', 'E');
 
-      current.options[optionKey] = optionMatch[2];
+      const optionText = stripNextPassageLeadIn(optionMatch[2]);
+      if (!optionText) {
+        currentOption = null;
+        continue;
+      }
+      current.options[optionKey] = optionText;
       currentOption = optionKey;
       continue;
     }
 
     if (currentOption && current.options[currentOption]) {
-      current.options[currentOption] = `${current.options[currentOption]} ${line}`;
+      const optionCont = stripNextPassageLeadIn(line);
+      if (!optionCont) {
+        currentOption = null;
+        continue;
+      }
+      current.options[currentOption] = `${current.options[currentOption]} ${optionCont}`;
     } else {
-      current.prompt = `${current.prompt} ${line}`;
+      const promptCont = stripNextPassageLeadIn(line);
+      if (!promptCont) continue;
+      current.prompt = `${current.prompt} ${promptCont}`;
     }
   }
 
@@ -188,6 +206,23 @@ async function parseAnswerMap(answerPdfPath) {
 
 function normalizeText(text) {
   return text.replace(/\s+/g, ' ').trim();
+}
+
+function stripNextPassageLeadIn(text) {
+  const marker = text.search(/次\s*の\s*文\s*を\s*読/i);
+  if (marker < 0) return text.trim();
+  return text.slice(0, marker).trim();
+}
+
+function appendMappedPath(map, key, relPath) {
+  const existing = map.get(key);
+  if (!existing) {
+    map.set(key, [relPath]);
+    return;
+  }
+  if (!existing.includes(relPath)) {
+    existing.push(relPath);
+  }
 }
 
 function detectBookletNo(question) {
@@ -350,15 +385,11 @@ async function extractBookletImages(examYear, section, bookletPdfPath, neededNos
         .join('/');
 
       await fs.writeFile(absPath, subCanvas.toBuffer('image/png'));
-      if (!imageMap.has(marker.no)) {
-        imageMap.set(marker.no, relPath);
-      }
+      appendMappedPath(imageMap, marker.no, relPath);
 
       const questionNo = recognizeQuestionNoInRegion(payload.textItems, marker, upperPt, lowerPt);
       if (Number.isInteger(questionNo)) {
-        if (!questionImageMap.has(questionNo)) {
-          questionImageMap.set(questionNo, relPath);
-        }
+        appendMappedPath(questionImageMap, questionNo, relPath);
       }
     }
   }
@@ -381,7 +412,14 @@ async function extractBookletImages(examYear, section, bookletPdfPath, neededNos
       .split(path.sep)
       .join('/');
     await fs.writeFile(absPath, canvas.toBuffer('image/png'));
-    imageMap.set(no, relPath);
+    appendMappedPath(imageMap, no, relPath);
+  }
+
+  for (const paths of imageMap.values()) {
+    paths.sort((a, b) => a.localeCompare(b));
+  }
+  for (const paths of questionImageMap.values()) {
+    paths.sort((a, b) => a.localeCompare(b));
   }
 
   return { imageMap, questionImageMap };
@@ -464,10 +502,17 @@ async function main() {
       );
 
       for (const q of bucket.questions) {
-        if (q.bookletNo && Number.isInteger(q.number) && questionImageMap.has(q.number)) {
-          q.bookletImagePath = questionImageMap.get(q.number);
-        } else if (q.bookletNo && imageMap.has(q.bookletNo)) {
-          q.bookletImagePath = imageMap.get(q.bookletNo);
+        const byQuestionNo = q.bookletNo && Number.isInteger(q.number) ? questionImageMap.get(q.number) : null;
+        const byBookletNo = q.bookletNo ? imageMap.get(q.bookletNo) : null;
+        const chosenPaths = Array.isArray(byQuestionNo) && byQuestionNo.length > 0
+          ? byQuestionNo
+          : Array.isArray(byBookletNo) && byBookletNo.length > 0
+            ? byBookletNo
+            : null;
+
+        if (chosenPaths) {
+          q.bookletImagePaths = [...chosenPaths];
+          q.bookletImagePath = chosenPaths[0];
         }
         allQuestions.push(q);
       }
@@ -478,7 +523,9 @@ async function main() {
     generatedAt: new Date().toISOString(),
     sourcePages: exams.map((e) => e.sourcePage),
     totalQuestions: allQuestions.length,
-    questionsWithBookletImage: allQuestions.filter((q) => q.bookletImagePath).length,
+    questionsWithBookletImage: allQuestions.filter(
+      (q) => q.bookletImagePath || (Array.isArray(q.bookletImagePaths) && q.bookletImagePaths.length > 0)
+    ).length,
     questions: allQuestions
   };
 
