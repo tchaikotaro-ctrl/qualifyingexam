@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Quiz Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="tag">Reusable Quiz Engine</p>
+        <h1 id="title">資格試験ランダムクイズ</h1>
+        <p id="meta">データ読み込み中...</p>
+      </header>
+
+      <section class="stats">
+        <div><span>出題</span><strong id="attempted">0</strong></div>
+        <div><span>正解</span><strong id="correct">0</strong></div>
+        <div><span>正答率</span><strong id="accuracy">0%</strong></div>
+      </section>
+
+      <section id="card" class="card" hidden>
+        <div class="head">
+          <p id="qid"></p>
+          <button id="next" type="button">次の問題</button>
+        </div>
+
+        <h2 id="prompt"></h2>
+
+        <figure id="figure" class="figure" hidden>
+          <img id="image" alt="問題画像" loading="lazy" />
+          <figcaption id="caption"></figcaption>
+        </figure>
+
+        <form id="options" class="options"></form>
+
+        <button id="judge" class="judge" type="button">解答する</button>
+        <p id="result" class="result"></p>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

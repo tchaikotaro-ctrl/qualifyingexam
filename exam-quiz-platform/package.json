@@ -1,0 +1,15 @@
+{
+  "name": "exam-quiz-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pluggable qualification exam quiz platform",
+  "scripts": {
+    "build:sample": "node web/scripts/build-sample.mjs",
+    "start": "python3 -m http.server 8090 -d web"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.92",
+    "pdfjs-dist": "^5.4.624"
+  }
+}

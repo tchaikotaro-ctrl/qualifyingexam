@@ -1,0 +1,48 @@
+:root {
+  --bg1: #f5f3ea;
+  --bg2: #e4f1f3;
+  --ink: #1d2d2f;
+  --muted: #586c70;
+  --card: #fffef9;
+  --line: #d8dfd6;
+  --accent: #116466;
+  --accent2: #d87c30;
+  --ok: #0a7e4c;
+  --ng: #a43333;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  background: radial-gradient(circle at 12% 5%, #fff5d9 0%, transparent 35%),
+    radial-gradient(circle at 88% 95%, #d5e9ef 0%, transparent 35%),
+    linear-gradient(160deg, var(--bg1), var(--bg2));
+}
+.container { width: min(920px, 92vw); margin: 0 auto; padding: 2rem 0 3rem; }
+.hero h1 { margin: .35rem 0 .55rem; font: 900 2rem Montserrat, sans-serif; }
+.hero p { margin: 0; color: var(--muted); }
+.tag { display: inline-block; background: var(--accent); color: #fff; border-radius: 999px; padding: .2rem .7rem; font-weight: 700; }
+.stats { margin-top: 1rem; display: grid; gap: .7rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.stats div { background: #ffffffcc; border: 1px solid var(--line); border-radius: 12px; padding: .8rem 1rem; }
+.stats span { display: block; color: var(--muted); font-size: .8rem; }
+.stats strong { font: 700 1.35rem Montserrat, sans-serif; }
+.card { margin-top: 1rem; background: var(--card); border: 1px solid #ded7c5; border-radius: 16px; padding: 1.2rem; }
+.head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.head p { margin: 0; color: var(--muted); }
+.head button { border: 0; border-radius: 8px; padding: .5rem .7rem; background: #e9f1f1; color: #1f4a4c; font-weight: 700; cursor: pointer; }
+h2 { margin: .8rem 0 1rem; line-height: 1.7; font-size: 1.1rem; }
+.figure { margin: 0 0 1rem; border: 1px solid #d7e2ec; border-radius: 12px; padding: .6rem; background: #f5f9ff; }
+.figure img { width: 100%; display: block; border-radius: 8px; height: auto; }
+.figure figcaption { margin-top: .4rem; color: var(--muted); font-size: .85rem; }
+.options { display: grid; gap: .55rem; }
+.option { display: grid; grid-template-columns: auto 1fr; gap: .6rem; border: 1px solid #ddd4c3; border-radius: 10px; padding: .7rem; background: #fff; }
+.judge { margin-top: .95rem; border: 0; border-radius: 10px; padding: .65rem 1rem; background: var(--accent2); color: #fff; font-weight: 700; cursor: pointer; }
+.result { min-height: 1.8rem; margin: .8rem 0 0; font-weight: 700; }
+.result.ok { color: var(--ok); }
+.result.ng { color: var(--ng); }
+@media (max-width: 680px) {
+  .stats { grid-template-columns: 1fr; }
+  .head { flex-direction: column; align-items: flex-start; }
+}

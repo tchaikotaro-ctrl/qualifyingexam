@@ -25,3 +25,5 @@
 - Excluded non A-E answer-format questions (numeric fill-in style) from the playable dataset.
 - Added booklet image extraction from each `*_02.pdf` and linked extracted images to questions containing `別冊 No.X`.
 - Updated the quiz UI to display the linked booklet image with each applicable question.
+- Created a separate reusable project `exam-quiz-platform/` with pluggable adapter architecture for applying the quiz system to arbitrary qualification exams.
+- Added a sample adapter for MHLW physician exam data plus generic web UI consuming `web/output/questions.json`.
