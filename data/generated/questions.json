@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-15T01:41:10.493Z",
+  "generatedAt": "2026-02-15T02:03:04.322Z",
   "sourcePages": [
     "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp230502-01.html",
     "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html",
@@ -368,10 +368,6 @@
       ],
       "answer": "C",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-01-1.png",
-        "data/generated/booklet-images/2023/A/no-01-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-01-1.png"
     },
     {
@@ -398,9 +394,6 @@
       ],
       "answer": "B",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-02-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-02-fallback.png"
     },
     {
@@ -427,10 +420,6 @@
       ],
       "answer": "CE",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-03-1.png",
-        "data/generated/booklet-images/2023/A/no-03-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-03-1.png"
     },
     {
@@ -529,9 +518,6 @@
       ],
       "answer": "C",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-04-1.png"
     },
     {
@@ -558,9 +544,6 @@
       ],
       "answer": "B",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-05-1.png"
     },
     {
@@ -587,9 +570,6 @@
       ],
       "answer": "C",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-06-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-06-fallback.png"
     },
     {
@@ -664,9 +644,6 @@
       ],
       "answer": "E",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-07-1.png"
     },
     {
@@ -693,9 +670,6 @@
       ],
       "answer": "E",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-08-1.png"
     },
     {
@@ -746,9 +720,6 @@
       ],
       "answer": "A",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-09-1.png"
     },
     {
@@ -799,9 +770,6 @@
       ],
       "answer": "D",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-10-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-10-1.png"
     },
     {
@@ -900,9 +868,6 @@
       ],
       "answer": "C",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-11-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-11-1.png"
     },
     {
@@ -929,9 +894,6 @@
       ],
       "answer": "AB",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-19-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-19-1.png"
     },
     {
@@ -958,10 +920,6 @@
       ],
       "answer": "B",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-13-1.png",
-        "data/generated/booklet-images/2023/A/no-13-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-13-1.png"
     },
     {
@@ -988,9 +946,6 @@
       ],
       "answer": "C",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-14-1.png"
     },
     {
@@ -1017,10 +972,6 @@
       ],
       "answer": "D",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-15-1.png",
-        "data/generated/booklet-images/2023/A/no-15-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-15-1.png"
     },
     {
@@ -1047,11 +998,6 @@
       ],
       "answer": "ACD",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-16-1.png",
-        "data/generated/booklet-images/2023/A/no-16-2.png",
-        "data/generated/booklet-images/2023/A/no-16-3.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-16-1.png"
     },
     {
@@ -1078,9 +1024,6 @@
       ],
       "answer": "A",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-17-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-17-1.png"
     },
     {
@@ -1107,9 +1050,6 @@
       ],
       "answer": "D",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-18-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-18-1.png"
     },
     {
@@ -1184,9 +1124,6 @@
       ],
       "answer": "AB",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-19-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-19-1.png"
     },
     {
@@ -1213,10 +1150,6 @@
       ],
       "answer": "A",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-20-1.png",
-        "data/generated/booklet-images/2023/A/no-20-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-20-1.png"
     },
     {
@@ -1267,9 +1200,6 @@
       ],
       "answer": "A",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-21-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-21-1.png"
     },
     {
@@ -1296,9 +1226,6 @@
       ],
       "answer": "A",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-22-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-22-fallback.png"
     },
     {
@@ -1325,10 +1252,6 @@
       ],
       "answer": "B",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-23-1.png",
-        "data/generated/booklet-images/2023/A/no-23-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-23-1.png"
     },
     {
@@ -1355,9 +1278,6 @@
       ],
       "answer": "ACD",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-24-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-24-1.png"
     },
     {
@@ -1384,11 +1304,6 @@
       ],
       "answer": "E",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-25-1.png",
-        "data/generated/booklet-images/2023/A/no-25-2.png",
-        "data/generated/booklet-images/2023/A/no-25-3.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-25-1.png"
     },
     {
@@ -1415,12 +1330,6 @@
       ],
       "answer": "DE",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-26-1.png",
-        "data/generated/booklet-images/2023/A/no-26-2.png",
-        "data/generated/booklet-images/2023/A/no-26-3.png",
-        "data/generated/booklet-images/2023/A/no-26-4.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-26-1.png"
     },
     {
@@ -1447,9 +1356,6 @@
       ],
       "answer": "A",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-27-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-27-1.png"
     },
     {
@@ -1476,9 +1382,6 @@
       ],
       "answer": "C",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-28-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-28-1.png"
     },
     {
@@ -1529,10 +1432,6 @@
       ],
       "answer": "C",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-29-1.png",
-        "data/generated/booklet-images/2023/A/no-29-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-29-1.png"
     },
     {
@@ -1559,9 +1458,6 @@
       ],
       "answer": "ACE",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-30-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-30-1.png"
     },
     {
@@ -1612,10 +1508,6 @@
       ],
       "answer": "E",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-31-1.png",
-        "data/generated/booklet-images/2023/A/no-31-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-31-1.png"
     },
     {
@@ -1642,9 +1534,6 @@
       ],
       "answer": "B",
       "bookletNo": 32,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-32-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-32-1.png"
     },
     {
@@ -1671,10 +1560,6 @@
       ],
       "answer": "AB",
       "bookletNo": 33,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-33-1.png",
-        "data/generated/booklet-images/2023/A/no-33-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-33-1.png"
     },
     {
@@ -1749,9 +1634,6 @@
       ],
       "answer": "B",
       "bookletNo": 34,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-32-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-32-1.png"
     },
     {
@@ -1778,9 +1660,6 @@
       ],
       "answer": "E",
       "bookletNo": 35,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-35-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-35-1.png"
     },
     {
@@ -1807,9 +1686,6 @@
       ],
       "answer": "C",
       "bookletNo": 36,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-36-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-36-1.png"
     },
     {
@@ -1836,10 +1712,6 @@
       ],
       "answer": "E",
       "bookletNo": 37,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-31-1.png",
-        "data/generated/booklet-images/2023/A/no-31-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-31-1.png"
     },
     {
@@ -1890,9 +1762,6 @@
       ],
       "answer": "D",
       "bookletNo": 38,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-38-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-38-fallback.png"
     },
     {
@@ -1919,9 +1788,6 @@
       ],
       "answer": "B",
       "bookletNo": 39,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-39-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-39-fallback.png"
     },
     {
@@ -1972,9 +1838,6 @@
       ],
       "answer": "AB",
       "bookletNo": 40,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-40-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-40-1.png"
     },
     {
@@ -2001,9 +1864,6 @@
       ],
       "answer": "B",
       "bookletNo": 41,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/A/no-41-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/A/no-41-1.png"
     },
     {
@@ -2270,9 +2130,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/B/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-01-fallback.png"
     },
     {
@@ -2779,9 +2636,6 @@
       ],
       "answer": "D",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/B/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-02-1.png"
     },
     {
@@ -2832,9 +2686,6 @@
       ],
       "answer": "D",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/B/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-03-1.png"
     },
     {
@@ -2981,10 +2832,6 @@
       ],
       "answer": "C",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/B/no-04-1.png",
-        "data/generated/booklet-images/2023/B/no-04-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-04-1.png"
     },
     {
@@ -3155,9 +3002,6 @@
       ],
       "answer": "C",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/B/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/B/no-05-1.png"
     },
     {
@@ -3448,9 +3292,6 @@
       ],
       "answer": "A",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-01-fallback.png"
     },
     {
@@ -3933,9 +3774,6 @@
       ],
       "answer": "C",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-02-1.png"
     },
     {
@@ -4346,9 +4184,6 @@
       ],
       "answer": "E",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-03-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-03-fallback.png"
     },
     {
@@ -4399,9 +4234,6 @@
       ],
       "answer": "B",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-04-1.png"
     },
     {
@@ -4524,9 +4356,6 @@
       ],
       "answer": "C",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-05-fallback.png"
     },
     {
@@ -4553,9 +4382,6 @@
       ],
       "answer": "B",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-06-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-06-1.png"
     },
     {
@@ -4582,9 +4408,6 @@
       ],
       "answer": "B",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-07-1.png"
     },
     {
@@ -4659,9 +4482,6 @@
       ],
       "answer": "A",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-08-1.png"
     },
     {
@@ -4928,9 +4748,6 @@
       ],
       "answer": "BCE",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/C/no-12-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/C/no-12-1.png"
     },
     {
@@ -5005,10 +4822,6 @@
       ],
       "answer": "B",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-01-1.png",
-        "data/generated/booklet-images/2023/D/no-01-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-01-1.png"
     },
     {
@@ -5107,9 +4920,6 @@
       ],
       "answer": "A",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-02-1.png"
     },
     {
@@ -5400,9 +5210,6 @@
       ],
       "answer": "D",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-03-1.png"
     },
     {
@@ -5453,9 +5260,6 @@
       ],
       "answer": "C",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-05-1.png"
     },
     {
@@ -5602,9 +5406,6 @@
       ],
       "answer": "C",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-06-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-06-1.png"
     },
     {
@@ -5655,9 +5456,6 @@
       ],
       "answer": "B",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-07-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-07-fallback.png"
     },
     {
@@ -5684,10 +5482,6 @@
       ],
       "answer": "B",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-08-1.png",
-        "data/generated/booklet-images/2023/D/no-08-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-08-1.png"
     },
     {
@@ -5714,9 +5508,6 @@
       ],
       "answer": "D",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-09-1.png"
     },
     {
@@ -5767,10 +5558,6 @@
       ],
       "answer": "A",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-10-1.png",
-        "data/generated/booklet-images/2023/D/no-10-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-10-1.png"
     },
     {
@@ -5797,9 +5584,6 @@
       ],
       "answer": "E",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-11-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-11-fallback.png"
     },
     {
@@ -5850,9 +5634,6 @@
       ],
       "answer": "E",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-12-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-12-1.png"
     },
     {
@@ -6023,11 +5804,6 @@
       ],
       "answer": "D",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-14-1.png",
-        "data/generated/booklet-images/2023/D/no-14-2.png",
-        "data/generated/booklet-images/2023/D/no-14-3.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-14-1.png"
     },
     {
@@ -6054,9 +5830,6 @@
       ],
       "answer": "AD",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-15-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-15-1.png"
     },
     {
@@ -6083,10 +5856,6 @@
       ],
       "answer": "E",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-16-1.png",
-        "data/generated/booklet-images/2023/D/no-16-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-16-1.png"
     },
     {
@@ -6137,11 +5906,6 @@
       ],
       "answer": "AC",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-17-1.png",
-        "data/generated/booklet-images/2023/D/no-17-2.png",
-        "data/generated/booklet-images/2023/D/no-17-3.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-17-1.png"
     },
     {
@@ -6192,9 +5956,6 @@
       ],
       "answer": "C",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-18-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-18-1.png"
     },
     {
@@ -6221,9 +5982,6 @@
       ],
       "answer": "E",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-19-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-19-1.png"
     },
     {
@@ -6322,9 +6080,6 @@
       ],
       "answer": "B",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-20-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-20-fallback.png"
     },
     {
@@ -6351,9 +6106,6 @@
       ],
       "answer": "A",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-21-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-21-1.png"
     },
     {
@@ -6380,9 +6132,6 @@
       ],
       "answer": "B",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-22-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-22-1.png"
     },
     {
@@ -6433,9 +6182,6 @@
       ],
       "answer": "A",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-23-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-23-fallback.png"
     },
     {
@@ -6486,10 +6232,6 @@
       ],
       "answer": "E",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-24-1.png",
-        "data/generated/booklet-images/2023/D/no-24-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-24-1.png"
     },
     {
@@ -6516,10 +6258,6 @@
       ],
       "answer": "BC",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-25-1.png",
-        "data/generated/booklet-images/2023/D/no-25-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-25-1.png"
     },
     {
@@ -6546,9 +6284,6 @@
       ],
       "answer": "D",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-26-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-26-fallback.png"
     },
     {
@@ -6599,9 +6334,6 @@
       ],
       "answer": "C",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-27-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-27-1.png"
     },
     {
@@ -6700,9 +6432,6 @@
       ],
       "answer": "B",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-28-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-28-1.png"
     },
     {
@@ -6729,11 +6458,6 @@
       ],
       "answer": "E",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-29-1.png",
-        "data/generated/booklet-images/2023/D/no-29-2.png",
-        "data/generated/booklet-images/2023/D/no-29-3.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-29-1.png"
     },
     {
@@ -6760,9 +6484,6 @@
       ],
       "answer": "C",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-30-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-30-1.png"
     },
     {
@@ -6789,9 +6510,6 @@
       ],
       "answer": "C",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-31-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-31-1.png"
     },
     {
@@ -6818,10 +6536,6 @@
       ],
       "answer": "D",
       "bookletNo": 32,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-32-1.png",
-        "data/generated/booklet-images/2023/D/no-32-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-32-1.png"
     },
     {
@@ -6848,9 +6562,6 @@
       ],
       "answer": "B",
       "bookletNo": 33,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-33-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-33-1.png"
     },
     {
@@ -6877,10 +6588,6 @@
       ],
       "answer": "A",
       "bookletNo": 34,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/D/no-34-1.png",
-        "data/generated/booklet-images/2023/D/no-34-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/D/no-34-1.png"
     },
     {
@@ -7051,9 +6758,6 @@
       ],
       "answer": "E",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-01-fallback.png"
     },
     {
@@ -7080,9 +6784,6 @@
       ],
       "answer": "A",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-02-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-02-fallback.png"
     },
     {
@@ -7349,9 +7050,6 @@
       ],
       "answer": "B",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-03-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-03-fallback.png"
     },
     {
@@ -7522,9 +7220,6 @@
       ],
       "answer": "A",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-04-1.png"
     },
     {
@@ -7623,9 +7318,6 @@
       ],
       "answer": "B",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-05-1.png"
     },
     {
@@ -7700,9 +7392,6 @@
       ],
       "answer": "E",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-06-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-06-1.png"
     },
     {
@@ -7849,9 +7538,6 @@
       ],
       "answer": "C",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/E/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/E/no-07-1.png"
     },
     {
@@ -8310,9 +7996,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-01-fallback.png"
     },
     {
@@ -9059,9 +8742,6 @@
       ],
       "answer": "B",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-02-1.png"
     },
     {
@@ -9232,9 +8912,6 @@
       ],
       "answer": "A",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-03-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-03-fallback.png"
     },
     {
@@ -9285,9 +8962,6 @@
       ],
       "answer": "A",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-04-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-04-fallback.png"
     },
     {
@@ -9362,9 +9036,6 @@
       ],
       "answer": "C",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-05-1.png"
     },
     {
@@ -9463,9 +9134,6 @@
       ],
       "answer": "E",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-06-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-06-fallback.png"
     },
     {
@@ -9516,9 +9184,6 @@
       ],
       "answer": "E",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-07-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-07-fallback.png"
     },
     {
@@ -9545,9 +9210,6 @@
       ],
       "answer": "D",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-08-1.png"
     },
     {
@@ -9718,9 +9380,6 @@
       ],
       "answer": "ACD",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-09-1.png"
     },
     {
@@ -9747,9 +9406,6 @@
       ],
       "answer": "A",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-10-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-10-1.png"
     },
     {
@@ -9848,9 +9504,6 @@
       ],
       "answer": "A",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2023/F/no-11-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2023/F/no-11-1.png"
     },
     {
@@ -10213,9 +9866,6 @@
       ],
       "answer": "C",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-01-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-01-1.png"
     },
     {
@@ -10266,9 +9916,6 @@
       ],
       "answer": "E",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-02-1.png"
     },
     {
@@ -10295,9 +9942,6 @@
       ],
       "answer": "E",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-03-1.png"
     },
     {
@@ -10348,9 +9992,6 @@
       ],
       "answer": "B",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-04-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-04-fallback.png"
     },
     {
@@ -10377,9 +10018,6 @@
       ],
       "answer": "D",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-05-fallback.png"
     },
     {
@@ -10406,9 +10044,6 @@
       ],
       "answer": "E",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-06-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-06-fallback.png"
     },
     {
@@ -10435,9 +10070,6 @@
       ],
       "answer": "A",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-07-1.png"
     },
     {
@@ -10464,9 +10096,6 @@
       ],
       "answer": "A",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-08-1.png"
     },
     {
@@ -10517,9 +10146,6 @@
       ],
       "answer": "E",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-09-1.png"
     },
     {
@@ -10546,10 +10172,6 @@
       ],
       "answer": "A",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-10-1.png",
-        "data/generated/booklet-images/2024/A/no-10-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-10-1.png"
     },
     {
@@ -10576,9 +10198,6 @@
       ],
       "answer": "D",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-11-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-11-fallback.png"
     },
     {
@@ -10701,9 +10320,6 @@
       ],
       "answer": "C",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-12-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-12-1.png"
     },
     {
@@ -10730,9 +10346,6 @@
       ],
       "answer": "D",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-13-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-13-1.png"
     },
     {
@@ -10831,9 +10444,6 @@
       ],
       "answer": "D",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-14-1.png"
     },
     {
@@ -10860,9 +10470,6 @@
       ],
       "answer": "C",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-15-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-15-1.png"
     },
     {
@@ -10913,9 +10520,6 @@
       ],
       "answer": "E",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-16-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-16-1.png"
     },
     {
@@ -10942,10 +10546,6 @@
       ],
       "answer": "B",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-17-1.png",
-        "data/generated/booklet-images/2024/A/no-17-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-17-1.png"
     },
     {
@@ -11020,10 +10620,6 @@
       ],
       "answer": "B",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-18-1.png",
-        "data/generated/booklet-images/2024/A/no-18-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-18-1.png"
     },
     {
@@ -11050,10 +10646,6 @@
       ],
       "answer": "B",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-19-1.png",
-        "data/generated/booklet-images/2024/A/no-19-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-19-1.png"
     },
     {
@@ -11104,9 +10696,6 @@
       ],
       "answer": "B",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-20-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-20-1.png"
     },
     {
@@ -11133,10 +10722,6 @@
       ],
       "answer": "D",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-21-1.png",
-        "data/generated/booklet-images/2024/A/no-21-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-21-1.png"
     },
     {
@@ -11187,9 +10772,6 @@
       ],
       "answer": "D",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-22-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-22-fallback.png"
     },
     {
@@ -11216,9 +10798,6 @@
       ],
       "answer": "B",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-23-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-23-fallback.png"
     },
     {
@@ -11269,9 +10848,6 @@
       ],
       "answer": "A",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-24-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-24-1.png"
     },
     {
@@ -11322,9 +10898,6 @@
       ],
       "answer": "C",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-25-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-25-1.png"
     },
     {
@@ -11351,9 +10924,6 @@
       ],
       "answer": "B",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-26-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-26-1.png"
     },
     {
@@ -11452,9 +11022,6 @@
       ],
       "answer": "E",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-27-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-27-fallback.png"
     },
     {
@@ -11601,9 +11168,6 @@
       ],
       "answer": "A",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-28-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-28-fallback.png"
     },
     {
@@ -11630,9 +11194,6 @@
       ],
       "answer": "AD",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-29-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-29-1.png"
     },
     {
@@ -11659,9 +11220,6 @@
       ],
       "answer": "AD",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-30-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-30-1.png"
     },
     {
@@ -11688,9 +11246,6 @@
       ],
       "answer": "BE",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-31-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-31-1.png"
     },
     {
@@ -11741,9 +11296,6 @@
       ],
       "answer": "BCE",
       "bookletNo": 32,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/A/no-32-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/A/no-32-1.png"
     },
     {
@@ -12082,9 +11634,6 @@
       ],
       "answer": "E",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/B/no-01-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-01-1.png"
     },
     {
@@ -12231,9 +11780,6 @@
       ],
       "answer": "C",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/B/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-02-1.png"
     },
     {
@@ -12620,9 +12166,6 @@
       ],
       "answer": "C",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/B/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-03-1.png"
     },
     {
@@ -12673,9 +12216,6 @@
       ],
       "answer": "A",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/B/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-04-1.png"
     },
     {
@@ -12870,9 +12410,6 @@
       ],
       "answer": "D",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/B/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/B/no-05-fallback.png"
     },
     {
@@ -13427,9 +12964,6 @@
       ],
       "answer": "C",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-01-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-01-1.png"
     },
     {
@@ -13576,9 +13110,6 @@
       ],
       "answer": "C",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-02-1.png"
     },
     {
@@ -13821,9 +13352,6 @@
       ],
       "answer": "DE",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-03-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-03-fallback.png"
     },
     {
@@ -13898,10 +13426,6 @@
       ],
       "answer": "D",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-04-1.png",
-        "data/generated/booklet-images/2024/C/no-04-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-04-1.png"
     },
     {
@@ -13928,9 +13452,6 @@
       ],
       "answer": "D",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-05-fallback.png"
     },
     {
@@ -14245,9 +13766,6 @@
       ],
       "answer": "A",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-06-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-06-1.png"
     },
     {
@@ -14610,12 +14128,6 @@
       ],
       "answer": "D",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/C/no-07-1.png",
-        "data/generated/booklet-images/2024/C/no-07-2.png",
-        "data/generated/booklet-images/2024/C/no-07-3.png",
-        "data/generated/booklet-images/2024/C/no-07-4.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/C/no-07-1.png"
     },
     {
@@ -15194,9 +14706,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-01-fallback.png"
     },
     {
@@ -15223,9 +14732,6 @@
       ],
       "answer": "E",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-02-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-02-fallback.png"
     },
     {
@@ -15324,9 +14830,6 @@
       ],
       "answer": "B",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-03-1.png"
     },
     {
@@ -15425,9 +14928,6 @@
       ],
       "answer": "C",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-04-1.png"
     },
     {
@@ -15454,10 +14954,6 @@
       ],
       "answer": "D",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-05-1.png",
-        "data/generated/booklet-images/2024/D/no-05-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-05-1.png"
     },
     {
@@ -15484,10 +14980,6 @@
       ],
       "answer": "A",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-06-1.png",
-        "data/generated/booklet-images/2024/D/no-06-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-06-1.png"
     },
     {
@@ -15514,9 +15006,6 @@
       ],
       "answer": "B",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-07-1.png"
     },
     {
@@ -15543,9 +15032,6 @@
       ],
       "answer": "C",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-08-1.png"
     },
     {
@@ -15572,9 +15058,6 @@
       ],
       "answer": "E",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-09-1.png"
     },
     {
@@ -15601,9 +15084,6 @@
       ],
       "answer": "E",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-10-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-10-fallback.png"
     },
     {
@@ -15630,9 +15110,6 @@
       ],
       "answer": "C",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-11-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-11-fallback.png"
     },
     {
@@ -15683,9 +15160,6 @@
       ],
       "answer": "C",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-12-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-12-fallback.png"
     },
     {
@@ -15760,9 +15234,6 @@
       ],
       "answer": "A",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-13-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-13-fallback.png"
     },
     {
@@ -15861,9 +15332,6 @@
       ],
       "answer": "A",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-14-1.png"
     },
     {
@@ -15914,9 +15382,6 @@
       ],
       "answer": "D",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-15-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-15-fallback.png"
     },
     {
@@ -15943,9 +15408,6 @@
       ],
       "answer": "B",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-16-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-16-fallback.png"
     },
     {
@@ -16020,9 +15482,6 @@
       ],
       "answer": "E",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-17-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-17-1.png"
     },
     {
@@ -16073,9 +15532,6 @@
       ],
       "answer": "E",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-18-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-18-1.png"
     },
     {
@@ -16126,9 +15582,6 @@
       ],
       "answer": "E",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-19-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-19-1.png"
     },
     {
@@ -16179,9 +15632,6 @@
       ],
       "answer": "E",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-20-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-20-1.png"
     },
     {
@@ -16208,9 +15658,6 @@
       ],
       "answer": "D",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-21-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-21-1.png"
     },
     {
@@ -16261,9 +15708,6 @@
       ],
       "answer": "B",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-22-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-22-1.png"
     },
     {
@@ -16290,10 +15734,6 @@
       ],
       "answer": "E",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-23-1.png",
-        "data/generated/booklet-images/2024/D/no-23-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-23-1.png"
     },
     {
@@ -16392,9 +15832,6 @@
       ],
       "answer": "D",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-24-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-24-1.png"
     },
     {
@@ -16421,9 +15858,6 @@
       ],
       "answer": "C",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-25-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-25-1.png"
     },
     {
@@ -16498,9 +15932,6 @@
       ],
       "answer": "D",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-26-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-26-1.png"
     },
     {
@@ -16527,9 +15958,6 @@
       ],
       "answer": "B",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-27-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-27-1.png"
     },
     {
@@ -16580,9 +16008,6 @@
       ],
       "answer": "CD",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-28-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-28-1.png"
     },
     {
@@ -16609,10 +16034,6 @@
       ],
       "answer": "CD",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-29-1.png",
-        "data/generated/booklet-images/2024/D/no-29-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-29-1.png"
     },
     {
@@ -16663,9 +16084,6 @@
       ],
       "answer": "B",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-07-1.png"
     },
     {
@@ -16740,9 +16158,6 @@
       ],
       "answer": "ABD",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/D/no-31-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/D/no-31-1.png"
     },
     {
@@ -17273,9 +16688,6 @@
       ],
       "answer": "A",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/E/no-01-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/E/no-01-1.png"
     },
     {
@@ -17470,9 +16882,6 @@
       ],
       "answer": "C",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/E/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/E/no-02-1.png"
     },
     {
@@ -18123,9 +17532,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-01-fallback.png"
     },
     {
@@ -18392,9 +17798,6 @@
       ],
       "answer": "D",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-02-1.png"
     },
     {
@@ -18829,10 +18232,6 @@
       ],
       "answer": "D",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-03-1.png",
-        "data/generated/booklet-images/2024/F/no-03-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-03-1.png"
     },
     {
@@ -18931,9 +18330,6 @@
       ],
       "answer": "C",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-04-1.png"
     },
     {
@@ -19008,9 +18404,6 @@
       ],
       "answer": "B",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-05-1.png"
     },
     {
@@ -19133,9 +18526,6 @@
       ],
       "answer": "E",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-06-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-06-fallback.png"
     },
     {
@@ -19162,9 +18552,6 @@
       ],
       "answer": "E",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-07-1.png"
     },
     {
@@ -19383,10 +18770,6 @@
       ],
       "answer": "CD",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-08-1.png",
-        "data/generated/booklet-images/2024/F/no-08-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-08-1.png"
     },
     {
@@ -19773,9 +19156,6 @@
       ],
       "answer": "B",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2024/F/no-11-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2024/F/no-11-fallback.png"
     },
     {
@@ -20066,9 +19446,6 @@
       ],
       "answer": "B",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-01-fallback.png"
     },
     {
@@ -20167,10 +19544,6 @@
       ],
       "answer": "A",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-02-1.png",
-        "data/generated/booklet-images/2025/A/no-02-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-02-1.png"
     },
     {
@@ -20245,10 +19618,6 @@
       ],
       "answer": "B",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-03-1.png",
-        "data/generated/booklet-images/2025/A/no-03-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-03-1.png"
     },
     {
@@ -20299,9 +19668,6 @@
       ],
       "answer": "A",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-04-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-04-fallback.png"
     },
     {
@@ -20328,9 +19694,6 @@
       ],
       "answer": "A",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-05-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-05-1.png"
     },
     {
@@ -20357,10 +19720,6 @@
       ],
       "answer": "C",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-06-1.png",
-        "data/generated/booklet-images/2025/A/no-06-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-06-1.png"
     },
     {
@@ -20387,9 +19746,6 @@
       ],
       "answer": "B",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-07-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-07-fallback.png"
     },
     {
@@ -20416,9 +19772,6 @@
       ],
       "answer": "E",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-08-1.png"
     },
     {
@@ -20517,10 +19870,6 @@
       ],
       "answer": "E",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-09-1.png",
-        "data/generated/booklet-images/2025/A/no-09-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-09-1.png"
     },
     {
@@ -20547,9 +19896,6 @@
       ],
       "answer": "D",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-10-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-10-fallback.png"
     },
     {
@@ -20648,9 +19994,6 @@
       ],
       "answer": "C",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-11-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-11-1.png"
     },
     {
@@ -20677,9 +20020,6 @@
       ],
       "answer": "A",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-13-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-13-1.png"
     },
     {
@@ -20706,9 +20046,6 @@
       ],
       "answer": "A",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-13-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-13-1.png"
     },
     {
@@ -20759,9 +20096,6 @@
       ],
       "answer": "B",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-14-1.png"
     },
     {
@@ -20788,9 +20122,6 @@
       ],
       "answer": "E",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-15-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-15-1.png"
     },
     {
@@ -20913,9 +20244,6 @@
       ],
       "answer": "B",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-14-1.png"
     },
     {
@@ -21038,9 +20366,6 @@
       ],
       "answer": "E",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-17-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-17-1.png"
     },
     {
@@ -21067,9 +20392,6 @@
       ],
       "answer": "A",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-18-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-18-fallback.png"
     },
     {
@@ -21096,9 +20418,6 @@
       ],
       "answer": "C",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-19-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-19-fallback.png"
     },
     {
@@ -21125,10 +20444,6 @@
       ],
       "answer": "D",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-20-1.png",
-        "data/generated/booklet-images/2025/A/no-20-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-20-1.png"
     },
     {
@@ -21155,9 +20470,6 @@
       ],
       "answer": "D",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-21-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-21-1.png"
     },
     {
@@ -21208,9 +20520,6 @@
       ],
       "answer": "D",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-22-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-22-1.png"
     },
     {
@@ -21309,9 +20618,6 @@
       ],
       "answer": "C",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-23-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-23-1.png"
     },
     {
@@ -21338,9 +20644,6 @@
       ],
       "answer": "A",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-24-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-24-1.png"
     },
     {
@@ -21367,9 +20670,6 @@
       ],
       "answer": "CE",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-25-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-25-fallback.png"
     },
     {
@@ -21396,9 +20696,6 @@
       ],
       "answer": "B",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-26-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-26-1.png"
     },
     {
@@ -21425,10 +20722,6 @@
       ],
       "answer": "A",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-27-1.png",
-        "data/generated/booklet-images/2025/A/no-27-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-27-1.png"
     },
     {
@@ -21455,9 +20748,6 @@
       ],
       "answer": "D",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-28-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-28-1.png"
     },
     {
@@ -21532,9 +20822,6 @@
       ],
       "answer": "D",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-29-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-29-fallback.png"
     },
     {
@@ -21561,10 +20848,6 @@
       ],
       "answer": "E",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-30-1.png",
-        "data/generated/booklet-images/2025/A/no-30-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-30-1.png"
     },
     {
@@ -21615,9 +20898,6 @@
       ],
       "answer": "E",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-31-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-31-1.png"
     },
     {
@@ -21644,9 +20924,6 @@
       ],
       "answer": "AE",
       "bookletNo": 32,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-32-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-32-fallback.png"
     },
     {
@@ -21721,9 +20998,6 @@
       ],
       "answer": "BE",
       "bookletNo": 33,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-33-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-33-fallback.png"
     },
     {
@@ -21750,9 +21024,6 @@
       ],
       "answer": "A",
       "bookletNo": 34,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/A/no-34-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/A/no-34-1.png"
     },
     {
@@ -21971,9 +21242,6 @@
       ],
       "answer": "A",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/B/no-01-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/B/no-01-1.png"
     },
     {
@@ -22480,9 +21748,6 @@
       ],
       "answer": "E",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/B/no-02-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/B/no-02-fallback.png"
     },
     {
@@ -23013,9 +22278,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-01-fallback.png"
     },
     {
@@ -23762,10 +23024,6 @@
       ],
       "answer": "BE",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-02-1.png",
-        "data/generated/booklet-images/2025/C/no-02-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-02-1.png"
     },
     {
@@ -23840,9 +23098,6 @@
       ],
       "answer": "D",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-03-1.png"
     },
     {
@@ -23941,9 +23196,6 @@
       ],
       "answer": "D",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-04-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-04-fallback.png"
     },
     {
@@ -23994,9 +23246,6 @@
       ],
       "answer": "A",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-05-fallback.png"
     },
     {
@@ -24167,9 +23416,6 @@
       ],
       "answer": "A",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-06-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-06-fallback.png"
     },
     {
@@ -24196,9 +23442,6 @@
       ],
       "answer": "C",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-07-1.png"
     },
     {
@@ -24345,9 +23588,6 @@
       ],
       "answer": "B",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-08-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-08-1.png"
     },
     {
@@ -24374,10 +23614,6 @@
       ],
       "answer": "E",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-09-1.png",
-        "data/generated/booklet-images/2025/C/no-09-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-09-1.png"
     },
     {
@@ -24476,9 +23712,6 @@
       ],
       "answer": "B",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-10-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-10-fallback.png"
     },
     {
@@ -24529,9 +23762,6 @@
       ],
       "answer": "E",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-11-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-11-1.png"
     },
     {
@@ -24606,10 +23836,6 @@
       ],
       "answer": "D",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/C/no-13-1.png",
-        "data/generated/booklet-images/2025/C/no-13-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/C/no-13-1.png"
     },
     {
@@ -24828,9 +24054,6 @@
       ],
       "answer": "B",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-01-fallback.png"
     },
     {
@@ -25025,9 +24248,6 @@
       ],
       "answer": "D",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-02-1.png"
     },
     {
@@ -25054,9 +24274,6 @@
       ],
       "answer": "D",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-03-1.png"
     },
     {
@@ -25179,10 +24396,6 @@
       ],
       "answer": "A",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-04-1.png",
-        "data/generated/booklet-images/2025/D/no-04-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-04-1.png"
     },
     {
@@ -25209,9 +24422,6 @@
       ],
       "answer": "CD",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-05-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-05-fallback.png"
     },
     {
@@ -25238,10 +24448,6 @@
       ],
       "answer": "E",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-06-1.png",
-        "data/generated/booklet-images/2025/D/no-06-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-06-1.png"
     },
     {
@@ -25268,9 +24474,6 @@
       ],
       "answer": "B",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-07-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-07-1.png"
     },
     {
@@ -25321,10 +24524,6 @@
       ],
       "answer": "C",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-08-1.png",
-        "data/generated/booklet-images/2025/D/no-08-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-08-1.png"
     },
     {
@@ -25399,9 +24598,6 @@
       ],
       "answer": "D",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-09-1.png"
     },
     {
@@ -25524,9 +24720,6 @@
       ],
       "answer": "C",
       "bookletNo": 10,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-10-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-10-1.png"
     },
     {
@@ -25577,9 +24770,6 @@
       ],
       "answer": "E",
       "bookletNo": 11,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-11-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-11-1.png"
     },
     {
@@ -25606,9 +24796,6 @@
       ],
       "answer": "C",
       "bookletNo": 12,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-12-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-12-fallback.png"
     },
     {
@@ -25731,9 +24918,6 @@
       ],
       "answer": "C",
       "bookletNo": 13,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-13-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-13-1.png"
     },
     {
@@ -25760,9 +24944,6 @@
       ],
       "answer": "E",
       "bookletNo": 14,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-14-1.png"
     },
     {
@@ -25813,9 +24994,6 @@
       ],
       "answer": "B",
       "bookletNo": 15,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-15-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-15-1.png"
     },
     {
@@ -25842,9 +25020,6 @@
       ],
       "answer": "C",
       "bookletNo": 16,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-16-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-16-fallback.png"
     },
     {
@@ -25895,9 +25070,6 @@
       ],
       "answer": "E",
       "bookletNo": 17,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-17-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-17-1.png"
     },
     {
@@ -25996,9 +25168,6 @@
       ],
       "answer": "BCD",
       "bookletNo": 18,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-18-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-18-fallback.png"
     },
     {
@@ -26169,9 +25338,6 @@
       ],
       "answer": "C",
       "bookletNo": 19,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-19-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-19-fallback.png"
     },
     {
@@ -26222,9 +25388,6 @@
       ],
       "answer": "D",
       "bookletNo": 20,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-20-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-20-1.png"
     },
     {
@@ -26251,9 +25414,6 @@
       ],
       "answer": "D",
       "bookletNo": 21,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-21-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-21-1.png"
     },
     {
@@ -26304,9 +25464,6 @@
       ],
       "answer": "D",
       "bookletNo": 22,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-22-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-22-1.png"
     },
     {
@@ -26333,9 +25490,6 @@
       ],
       "answer": "C",
       "bookletNo": 23,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-23-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-23-1.png"
     },
     {
@@ -26410,9 +25564,6 @@
       ],
       "answer": "B",
       "bookletNo": 24,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-24-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-24-1.png"
     },
     {
@@ -26439,9 +25590,6 @@
       ],
       "answer": "E",
       "bookletNo": 25,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-14-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-14-1.png"
     },
     {
@@ -26516,9 +25664,6 @@
       ],
       "answer": "D",
       "bookletNo": 26,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-26-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-26-1.png"
     },
     {
@@ -26545,9 +25690,6 @@
       ],
       "answer": "D",
       "bookletNo": 27,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-27-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-27-1.png"
     },
     {
@@ -26574,9 +25716,6 @@
       ],
       "answer": "B",
       "bookletNo": 28,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-28-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-28-fallback.png"
     },
     {
@@ -26603,10 +25742,6 @@
       ],
       "answer": "BE",
       "bookletNo": 29,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-29-1.png",
-        "data/generated/booklet-images/2025/D/no-29-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-29-1.png"
     },
     {
@@ -26633,9 +25768,6 @@
       ],
       "answer": "B",
       "bookletNo": 30,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-30-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-30-1.png"
     },
     {
@@ -26686,10 +25818,6 @@
       ],
       "answer": "BC",
       "bookletNo": 31,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-31-1.png",
-        "data/generated/booklet-images/2025/D/no-31-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-31-1.png"
     },
     {
@@ -26716,9 +25844,6 @@
       ],
       "answer": "BC",
       "bookletNo": 32,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/D/no-32-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/D/no-32-1.png"
     },
     {
@@ -27057,9 +26182,6 @@
       ],
       "answer": "E",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/E/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-01-fallback.png"
     },
     {
@@ -27326,9 +26448,6 @@
       ],
       "answer": "A",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/E/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-02-1.png"
     },
     {
@@ -27355,9 +26474,6 @@
       ],
       "answer": "E",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/E/no-03-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-03-1.png"
     },
     {
@@ -27504,9 +26620,6 @@
       ],
       "answer": "B",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/E/no-04-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-04-1.png"
     },
     {
@@ -27701,10 +26814,6 @@
       ],
       "answer": "C",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/E/no-05-1.png",
-        "data/generated/booklet-images/2025/E/no-05-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/E/no-05-1.png"
     },
     {
@@ -28859,9 +27968,6 @@
       ],
       "answer": "D",
       "bookletNo": 1,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-01-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-01-fallback.png"
     },
     {
@@ -28912,9 +28018,6 @@
       ],
       "answer": "A",
       "bookletNo": 2,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-02-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-02-1.png"
     },
     {
@@ -28989,9 +28092,6 @@
       ],
       "answer": "C",
       "bookletNo": 3,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-03-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-03-fallback.png"
     },
     {
@@ -29210,10 +28310,6 @@
       ],
       "answer": "C",
       "bookletNo": 4,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-04-1.png",
-        "data/generated/booklet-images/2025/F/no-04-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-04-1.png"
     },
     {
@@ -29312,10 +28408,6 @@
       ],
       "answer": "B",
       "bookletNo": 5,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-05-1.png",
-        "data/generated/booklet-images/2025/F/no-05-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-05-1.png"
     },
     {
@@ -29438,9 +28530,6 @@
       ],
       "answer": "BC",
       "bookletNo": 6,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-06-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-06-1.png"
     },
     {
@@ -29587,10 +28676,6 @@
       ],
       "answer": "C",
       "bookletNo": 7,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-07-1.png",
-        "data/generated/booklet-images/2025/F/no-07-2.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-07-1.png"
     },
     {
@@ -29713,9 +28798,6 @@
       ],
       "answer": "B",
       "bookletNo": 8,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-08-fallback.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-08-fallback.png"
     },
     {
@@ -29742,9 +28824,6 @@
       ],
       "answer": "DE",
       "bookletNo": 9,
-      "bookletImagePaths": [
-        "data/generated/booklet-images/2025/F/no-09-1.png"
-      ],
       "bookletImagePath": "data/generated/booklet-images/2025/F/no-09-1.png"
     },
     {

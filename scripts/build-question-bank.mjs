@@ -342,9 +342,7 @@ async function extractBookletImages(examYear, section, bookletPdfPath, neededNos
 
       const subCanvas = cropPanel(fullCanvas, cropLeftPx, cropTopPx, cropWidthPx, cropHeightPx);
 
-      const existing = imageMap.get(marker.no) || [];
-      const idx = existing.length + 1;
-      const fileName = `no-${String(marker.no).padStart(2, '0')}-${idx}.png`;
+      const fileName = `no-${String(marker.no).padStart(2, '0')}-${i + 1}.png`;
       const absPath = path.join(sectionDir, fileName);
       const relPath = path
         .join('data', 'generated', 'booklet-images', String(examYear), section, fileName)
@@ -352,14 +350,15 @@ async function extractBookletImages(examYear, section, bookletPdfPath, neededNos
         .join('/');
 
       await fs.writeFile(absPath, subCanvas.toBuffer('image/png'));
-      existing.push(relPath);
-      imageMap.set(marker.no, existing);
+      if (!imageMap.has(marker.no)) {
+        imageMap.set(marker.no, relPath);
+      }
 
       const questionNo = recognizeQuestionNoInRegion(payload.textItems, marker, upperPt, lowerPt);
       if (Number.isInteger(questionNo)) {
-        const byQuestion = questionImageMap.get(questionNo) || [];
-        byQuestion.push(relPath);
-        questionImageMap.set(questionNo, byQuestion);
+        if (!questionImageMap.has(questionNo)) {
+          questionImageMap.set(questionNo, relPath);
+        }
       }
     }
   }
@@ -382,7 +381,7 @@ async function extractBookletImages(examYear, section, bookletPdfPath, neededNos
       .split(path.sep)
       .join('/');
     await fs.writeFile(absPath, canvas.toBuffer('image/png'));
-    imageMap.set(no, [relPath]);
+    imageMap.set(no, relPath);
   }
 
   return { imageMap, questionImageMap };
@@ -466,11 +465,9 @@ async function main() {
 
       for (const q of bucket.questions) {
         if (q.bookletNo && Number.isInteger(q.number) && questionImageMap.has(q.number)) {
-          q.bookletImagePaths = questionImageMap.get(q.number);
-          q.bookletImagePath = q.bookletImagePaths[0];
+          q.bookletImagePath = questionImageMap.get(q.number);
         } else if (q.bookletNo && imageMap.has(q.bookletNo)) {
-          q.bookletImagePaths = imageMap.get(q.bookletNo);
-          q.bookletImagePath = q.bookletImagePaths[0];
+          q.bookletImagePath = imageMap.get(q.bookletNo);
         }
         allQuestions.push(q);
       }
