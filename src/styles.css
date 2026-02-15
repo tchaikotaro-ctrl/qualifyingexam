@@ -107,6 +107,27 @@ h2 {
   font-size: 1.1rem;
 }
 
+.booklet {
+  margin: 0 0 1rem;
+  padding: 0.65rem;
+  border-radius: 12px;
+  background: #f6f9ff;
+  border: 1px solid #dce6f7;
+}
+
+.booklet img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.booklet figcaption {
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .options {
   display: grid;
   gap: 0.55rem;

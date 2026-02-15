@@ -23,3 +23,5 @@
 - Implemented a data build script that downloads official PDFs and extracts question/answer pairs into `data/generated/questions.json`.
 - Added multi-select answer judging, score tracking, and random question navigation UI.
 - Excluded non A-E answer-format questions (numeric fill-in style) from the playable dataset.
+- Added booklet image extraction from each `*_02.pdf` and linked extracted images to questions containing `別冊 No.X`.
+- Updated the quiz UI to display the linked booklet image with each applicable question.

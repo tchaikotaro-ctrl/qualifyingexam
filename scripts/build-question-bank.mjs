@@ -2,12 +2,14 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as pdfjs from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { createCanvas } from '@napi-rs/canvas';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const rawDir = path.join(rootDir, 'data', 'raw');
 const outDir = path.join(rootDir, 'data', 'generated');
+const bookletImageRootDir = path.join(outDir, 'booklet-images');
 const cMapUrl = path.join(rootDir, 'node_modules', 'pdfjs-dist', 'cmaps') + '/';
 const standardFontDataUrl = path.join(rootDir, 'node_modules', 'pdfjs-dist', 'standard_fonts') + '/';
 
@@ -56,14 +58,18 @@ async function download(url, dest) {
   await fs.writeFile(dest, Buffer.from(arrayBuffer));
 }
 
-async function loadPdfLines(pdfPath) {
+async function loadPdfDocument(pdfPath) {
   const data = new Uint8Array(await fs.readFile(pdfPath));
-  const doc = await pdfjs.getDocument({
+  return pdfjs.getDocument({
     data,
     cMapUrl,
     cMapPacked: true,
     standardFontDataUrl
   }).promise;
+}
+
+async function loadPdfLines(pdfPath) {
+  const doc = await loadPdfDocument(pdfPath);
 
   const allLines = [];
   for (let p = 1; p <= doc.numPages; p += 1) {
@@ -184,9 +190,66 @@ function normalizeText(text) {
   return text.replace(/\s+/g, ' ').trim();
 }
 
+function detectBookletNo(question) {
+  const target = [question.prompt, ...Object.values(question.options)].join(' ');
+  const m = target.match(/別\s*冊\s*No\.?\s*(\d+)/i);
+  if (!m) return null;
+
+  const n = Number(m[1]);
+  if (!Number.isInteger(n) || n <= 0) return null;
+  return n;
+}
+
+async function renderBookletPage(pdfDoc, pageNumber, outPath) {
+  const page = await pdfDoc.getPage(pageNumber);
+  const viewport = page.getViewport({ scale: 1.3 });
+  const canvas = createCanvas(Math.ceil(viewport.width), Math.ceil(viewport.height));
+  const context = canvas.getContext('2d');
+
+  await page.render({
+    canvasContext: context,
+    viewport
+  }).promise;
+
+  await fs.writeFile(outPath, canvas.toBuffer('image/png'));
+}
+
+async function extractBookletImages(examYear, section, bookletPdfPath, neededNos) {
+  const imageMap = new Map();
+  if (neededNos.size === 0) return imageMap;
+
+  const pdfDoc = await loadPdfDocument(bookletPdfPath);
+  const sectionDir = path.join(bookletImageRootDir, String(examYear), section);
+  await ensureDir(sectionDir);
+
+  const sortedNos = [...neededNos].sort((a, b) => a - b);
+
+  for (const no of sortedNos) {
+    if (no > pdfDoc.numPages) continue;
+
+    const fileName = `no-${String(no).padStart(2, '0')}.png`;
+    const absPath = path.join(sectionDir, fileName);
+    const relPath = path
+      .join('data', 'generated', 'booklet-images', String(examYear), section, fileName)
+      .split(path.sep)
+      .join('/');
+
+    try {
+      await fs.access(absPath);
+    } catch {
+      await renderBookletPage(pdfDoc, no, absPath);
+    }
+
+    imageMap.set(no, relPath);
+  }
+
+  return imageMap;
+}
+
 async function main() {
   await ensureDir(rawDir);
   await ensureDir(outDir);
+  await ensureDir(bookletImageRootDir);
 
   const allQuestions = [];
 
@@ -198,16 +261,25 @@ async function main() {
     await download(answerUrl, answerPath);
     const answerMap = await parseAnswerMap(answerPath);
 
+    const sectionBuckets = new Map();
+
     for (let i = 0; i < sections.length; i += 1) {
       const section = sections[i];
       const sectionId = sectionUpper[i];
       const problemFileName = `${exam.prefix}${section}_01.pdf`;
+      const bookletFileName = `${exam.prefix}${section}_02.pdf`;
       const problemUrl = `https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/dl/${problemFileName}`;
+      const bookletUrl = `https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/dl/${bookletFileName}`;
       const problemPath = path.join(rawDir, problemFileName);
+      const bookletPath = path.join(rawDir, bookletFileName);
 
       await download(problemUrl, problemPath);
+      await download(bookletUrl, bookletPath);
+
       const lines = await loadPdfLines(problemPath);
       const parsed = parseQuestions(lines, exam, sectionId);
+      const questions = [];
+      const neededNos = new Set();
 
       for (const q of parsed) {
         const answer = answerMap.get(q.id);
@@ -223,9 +295,35 @@ async function main() {
         }
 
         // ensure all options exist for UI consistency.
-        if (q.optionOrder.every((k) => typeof q.options[k] === 'string' && q.options[k].length > 0)) {
-          allQuestions.push(q);
+        if (!q.optionOrder.every((k) => typeof q.options[k] === 'string' && q.options[k].length > 0)) {
+          continue;
         }
+
+        const bookletNo = detectBookletNo(q);
+        if (bookletNo) {
+          q.bookletNo = bookletNo;
+          neededNos.add(bookletNo);
+        }
+
+        questions.push(q);
+      }
+
+      sectionBuckets.set(sectionId, {
+        sectionId,
+        bookletPath,
+        questions,
+        neededNos
+      });
+    }
+
+    for (const [sectionId, bucket] of sectionBuckets.entries()) {
+      const imageMap = await extractBookletImages(exam.year, sectionId, bucket.bookletPath, bucket.neededNos);
+
+      for (const q of bucket.questions) {
+        if (q.bookletNo && imageMap.has(q.bookletNo)) {
+          q.bookletImagePath = imageMap.get(q.bookletNo);
+        }
+        allQuestions.push(q);
       }
     }
   }
@@ -234,6 +332,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     sourcePages: exams.map((e) => e.sourcePage),
     totalQuestions: allQuestions.length,
+    questionsWithBookletImage: allQuestions.filter((q) => q.bookletImagePath).length,
     questions: allQuestions
   };
 
@@ -246,6 +345,7 @@ async function main() {
   }, {});
 
   console.log(`Saved ${allQuestions.length} questions -> ${outPath}`);
+  console.log(`Questions with booklet image: ${output.questionsWithBookletImage}`);
   console.log(byExam);
 }
 

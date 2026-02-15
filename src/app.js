@@ -6,6 +6,9 @@ const els = {
   card: document.querySelector('#question-card'),
   qid: document.querySelector('#question-id'),
   qtext: document.querySelector('#question-text'),
+  bookletFigure: document.querySelector('#booklet-figure'),
+  bookletImage: document.querySelector('#booklet-image'),
+  bookletCaption: document.querySelector('#booklet-caption'),
   form: document.querySelector('#answer-form'),
   judge: document.querySelector('#judge-btn'),
   next: document.querySelector('#next-btn'),
@@ -31,6 +34,16 @@ function renderQuestion(question) {
 
   els.qid.textContent = `${question.examLabel} / ${question.id}`;
   els.qtext.textContent = question.prompt;
+
+  if (question.bookletImagePath) {
+    els.bookletImage.src = `./${question.bookletImagePath}`;
+    els.bookletCaption.textContent = `別冊 No.${question.bookletNo}`;
+    els.bookletFigure.hidden = false;
+  } else {
+    els.bookletImage.removeAttribute('src');
+    els.bookletCaption.textContent = '';
+    els.bookletFigure.hidden = true;
+  }
 
   els.form.innerHTML = '';
   for (const key of question.optionOrder) {
