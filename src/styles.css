@@ -160,6 +160,10 @@ h2 {
 
 .action-row {
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
 }
 
 button {

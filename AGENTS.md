@@ -39,3 +39,4 @@
 - Rebuilt datasets for both projects and verified that lead-in contamination count dropped to zero while multi-image questions are now emitted.
 - Temporarily excluded all booklet-referenced questions (`別冊 No.X`) from both builders so image-containing questions are removed from the playable question set.
 - Rebuilt both datasets after exclusion and confirmed image-linked question counts are now zero.
+- Moved the `次の問題へ` control into the action row so it is displayed next to `解答する`.
