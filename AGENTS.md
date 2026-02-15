@@ -30,3 +30,6 @@
 - Revised booklet processing to render PDF pages first and then crop image panels based on detected `No.` marker regions.
 - Improved mapping by using question-number cues (`問題 XX`) when available, with `No.`-based and page-based fallback to prevent missing links.
 - Updated both projects' UIs to support multiple booklet images per question (e.g., A/B panels).
+- Reset generated booklet image assets and rebuilt them from raw booklet PDFs.
+- Changed mapping workflow to: render full page image -> crop panel -> recognize question number from cropped region text -> link to question body.
+- Attempted browser automation debugging with Playwright; blocked in this environment due missing system library (`libnspr4.so`) and no sudo for dependency install.

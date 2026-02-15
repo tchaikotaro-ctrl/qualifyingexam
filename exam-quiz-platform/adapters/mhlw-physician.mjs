@@ -200,38 +200,38 @@ function extractNoMarkers(textItems) {
     const no = Number(best.s);
     if (!Number.isInteger(no) || no <= 0 || no >= 100) continue;
 
-    let questionNo = null;
-    let qToken = null;
-    for (const token of items) {
-      if (token.s !== '問題') continue;
-      const dx = token.x - it.x;
-      const dy = Math.abs(token.y - it.y);
-      if (dx < 0 || dx > 260 || dy > 24) continue;
-      if (!qToken || token.x < qToken.x) qToken = token;
-    }
-    if (qToken) {
-      let qNumToken = null;
-      for (const token of numbers) {
-        const dx = token.x - qToken.x;
-        const dy = Math.abs(token.y - qToken.y);
-        if (dx < 0 || dx > 120 || dy > 24) continue;
-        if (!qNumToken || token.x < qNumToken.x) qNumToken = token;
-      }
-      if (qNumToken) {
-        const n = Number(qNumToken.s);
-        if (Number.isInteger(n) && n >= 1 && n <= 75) {
-          questionNo = n;
-        }
-      }
-    }
-
     const duplicated = markers.some((m) => m.no === no && Math.abs(m.x - it.x) < 8 && Math.abs(m.y - it.y) < 4);
     if (!duplicated) {
-      markers.push({ no, x: it.x, y: it.y, questionNo });
+      markers.push({ no, x: it.x, y: it.y });
     }
   }
 
   return markers.sort((a, b) => b.y - a.y || a.x - b.x);
+}
+
+function recognizeQuestionNoInRegion(textItems, marker, upperPt, lowerPt) {
+  const minX = marker.x - 10;
+  const maxX = marker.x + 380;
+  const maxY = upperPt + 6;
+  const minY = lowerPt - 6;
+
+  const target = textItems
+    .map((item) => ({
+      s: String(item.str || '').trim(),
+      x: item.transform[4],
+      y: item.transform[5]
+    }))
+    .filter((i) => i.s && i.x >= minX && i.x <= maxX && i.y >= minY && i.y <= maxY)
+    .sort((a, b) => b.y - a.y || a.x - b.x)
+    .map((i) => i.s)
+    .join(' ');
+
+  const compact = target.replace(/\s+/g, '');
+  const m = compact.match(/問題([1-9][0-9]?)/);
+  if (!m) return null;
+  const n = Number(m[1]);
+  if (!Number.isInteger(n) || n < 1 || n > 75) return null;
+  return n;
 }
 
 function cropPanel(fullCanvas, sx, sy, sw, sh) {
@@ -266,7 +266,7 @@ async function extractBookletImages(ctx, bookletPdfPath, examYear, sectionId, ne
     const markers = extractNoMarkers(textContent.items).filter((m) => neededNos.has(m.no));
     if (markers.length === 0) continue;
 
-    markersByPage.set(pageNo, markers);
+    markersByPage.set(pageNo, { markers, textItems: textContent.items });
     for (const marker of markers) {
       if (!pageCountsByNo.has(marker.no)) pageCountsByNo.set(marker.no, new Map());
       const counter = pageCountsByNo.get(marker.no);
@@ -280,8 +280,8 @@ async function extractBookletImages(ctx, bookletPdfPath, examYear, sectionId, ne
     if (best) selectedPageByNo.set(no, best[0]);
   }
 
-  for (const [pageNo, allMarkers] of markersByPage.entries()) {
-    const targetMarkers = allMarkers
+  for (const [pageNo, payload] of markersByPage.entries()) {
+    const targetMarkers = payload.markers
       .filter((m) => selectedPageByNo.get(m.no) === pageNo)
       .sort((a, b) => b.y - a.y || a.x - b.x);
     if (targetMarkers.length === 0) continue;
@@ -320,10 +320,11 @@ async function extractBookletImages(ctx, bookletPdfPath, examYear, sectionId, ne
       existing.push(relPath);
       imageMap.set(marker.no, existing);
 
-      if (Number.isInteger(marker.questionNo) && marker.questionNo >= 1 && marker.questionNo <= 75) {
-        const byQuestion = questionImageMap.get(marker.questionNo) || [];
+      const questionNo = recognizeQuestionNoInRegion(payload.textItems, marker, upperPt, lowerPt);
+      if (Number.isInteger(questionNo)) {
+        const byQuestion = questionImageMap.get(questionNo) || [];
         byQuestion.push(relPath);
-        questionImageMap.set(marker.questionNo, byQuestion);
+        questionImageMap.set(questionNo, byQuestion);
       }
     }
   }
